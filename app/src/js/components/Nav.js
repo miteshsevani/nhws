@@ -33,6 +33,11 @@ export default class Nav extends React.Component {
 				},
 				{
 					"id":"6",
+					"text":"Past Events",
+					"link":"#past-events"
+				},
+				{
+					"id":"6",
 					"text":"BBC Inside Out",
 					"link":"#bbcinsideout"
 				}
@@ -55,7 +60,7 @@ export default class Nav extends React.Component {
 	render() {
 		return(
 			<nav className="navbar navbar-default navbar-fixed-top">
-				<div className="container">
+				<div className="container-fluid">
 					<div className="navbar-header">
 						<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 						<span className="sr-only">Toggle navigation</span>
