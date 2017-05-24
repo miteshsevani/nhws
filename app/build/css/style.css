@@ -3,7 +3,43 @@
   margin: 0px auto; }
 
 body {
-  font-family: Roboto,'sans-serif';
-  padding: 25px; }
-  body .wrapper {
-    width: 100%; }
+  font-family: Oxygen,'sans-serif'; }
+  body .navbar {
+    margin-bottom: 0px; }
+  body section {
+    padding: 25px 100px; }
+    body section ul {
+      list-style: none;
+      padding: 0px; }
+      body section ul li {
+        border-bottom: 1px solid #dedddd;
+        padding: 5px 0px; }
+        body section ul li:last-child {
+          border-bottom: none; }
+  body .banner {
+    background-image: url("../images/banner-bg.png");
+    height: 306px;
+    width: 100%;
+    background-size: cover;
+    text-align: center; }
+    body .banner .banner-content {
+      color: #999999;
+      text-align: left;
+      font-size: 22px;
+      width: 70%;
+      margin-top: 50px; }
+      body .banner .banner-content span {
+        color: #fff; }
+  body #grooming {
+    background: #f7f7f7; }
+    body #grooming .telling-signs {
+      background: #fff;
+      position: absolute;
+      left: 0px;
+      top: -130px;
+      padding: 15px; }
+  body #staying-safe {
+    background: #f7f7f7; }
+  body #documenteries {
+    background: #191919;
+    color: #fff; }

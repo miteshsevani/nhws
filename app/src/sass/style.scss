@@ -5,37 +5,76 @@
 }
 
 body {
-    font-family: Roboto,'sans-serif';
-    padding: 25px;
-    
-    .wrapper {
-      width: 100%;
+    font-family: Oxygen,'sans-serif';
 
-      .banner {
-          .banner-content {
+    header {
 
+    }
+
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    section {
+      padding:25px 100px; 
+
+      ul {
+        list-style: none;
+        padding:0px;
+
+        li {
+          border-bottom: 1px solid darken($section-background,10%);
+          padding: 5px 0px;
+
+          &:last-child {
+            border-bottom: none;;
           }
-      }
-
-      #awareness {
-        .telling-signs {
-
+        }
+      }    
+    }
+      
+    .banner {
+      background-image: url('../images/banner-bg.png');
+      height: 306px;
+      width: 100%;
+      background-size: cover;
+      text-align: center;
+      
+      .banner-content {
+        color: $secondary-color;
+        text-align: left;
+        font-size:22px;
+        width:70%;
+        margin-top: 50px;
+        
+        span {
+          color: $primary-color;
         }
       }
+    }
 
-      #grooming {
-
+    #grooming {
+      background:$section-background;
+      .telling-signs {
+        background:#fff;
+        position: absolute;          
+        left: 0px;
+        top: -130px;
+        padding:15px;
       }
+    }
 
-      #prevention {
+    #prevention {
+      
+    }
 
-      }
+    #staying-safe {
+      background:$section-background;
+    }
 
-      #staying-safe {
-
-      }
-
-
+    #documenteries {
+      background: $section-background-dark;
+      color: #fff;
     }
 }
 
