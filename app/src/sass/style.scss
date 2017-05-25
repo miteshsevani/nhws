@@ -17,6 +17,7 @@ body {
 
     section {
       padding:25px 100px; 
+      max-width: 1248px;
 
       ul {
         list-style: none;
@@ -37,6 +38,7 @@ body {
       background-image: url('../images/banner-bg.png');
       height: 306px;
       width: 100%;
+      max-width: none;
       background-size: cover;
       text-align: center;
       
