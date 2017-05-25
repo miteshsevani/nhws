@@ -37,7 +37,7 @@ export default class Nav extends React.Component {
 					"link":"#past-events"
 				},
 				{
-					"id":"6",
+					"id":"7",
 					"text":"BBC Inside Out",
 					"link":"#bbcinsideout"
 				}

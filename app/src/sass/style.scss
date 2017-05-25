@@ -6,7 +6,7 @@
 
 body {
     font-family: Oxygen,'sans-serif';
-
+    
     header {
 
     }
@@ -17,23 +17,35 @@ body {
 
     section {
       padding:25px 100px; 
-      max-width: 1248px;
+      .row {
+        max-width: 1248px;
+        margin: 0 auto;
+      }
 
       ul {
         list-style: none;
         padding:0px;
 
-        li {
-          border-bottom: 1px solid darken($section-background,10%);
-          padding: 5px 0px;
-
-          &:last-child {
-            border-bottom: none;;
-          }
-        }
       }    
     }
-      
+    
+    .box-content {
+      background:#fff;
+      padding:15px;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+
+      li {
+        border-bottom: 1px solid darken($section-background,10%);
+        padding: 5px 0px;
+
+        &:last-child {
+          border-bottom: none;;
+        }
+      }
+    }
+    
     .banner {
       background-image: url('../images/banner-bg.png');
       height: 306px;
@@ -51,6 +63,7 @@ body {
         
         span {
           color: $primary-color;
+          font-weight: 300;
         }
       }
     }
@@ -58,11 +71,7 @@ body {
     #grooming {
       background:$section-background;
       .telling-signs {
-        background:#fff;
-        position: absolute;          
-        left: 0px;
-        top: -130px;
-        padding:15px;
+        margin-top: -130px;        
       }
     }
 

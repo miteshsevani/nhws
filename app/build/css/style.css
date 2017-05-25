@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oxygen|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Roboto");
 * {
   margin: 0px auto; }
 
@@ -7,16 +7,24 @@ body {
   body .navbar {
     margin-bottom: 0px; }
   body section {
-    padding: 25px 100px;
-    max-width: 1248px; }
+    padding: 25px 100px; }
+    body section .row {
+      max-width: 1248px;
+      margin: 0 auto; }
     body section ul {
       list-style: none;
       padding: 0px; }
-      body section ul li {
-        border-bottom: 1px solid #dedddd;
-        padding: 5px 0px; }
-        body section ul li:last-child {
-          border-bottom: none; }
+  body .box-content {
+    background: #fff;
+    padding: 15px;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
+    body .box-content li {
+      border-bottom: 1px solid #d4d7d9;
+      padding: 5px 0px; }
+      body .box-content li:last-child {
+        border-bottom: none; }
   body .banner {
     background-image: url("../images/banner-bg.png");
     height: 306px;
@@ -25,23 +33,20 @@ body {
     background-size: cover;
     text-align: center; }
     body .banner .banner-content {
-      color: #999999;
+      color: #b3b2b2;
       text-align: left;
       font-size: 22px;
       width: 70%;
       margin-top: 50px; }
       body .banner .banner-content span {
-        color: #fff; }
+        color: #fff;
+        font-weight: 300; }
   body #grooming {
-    background: #f7f7f7; }
+    background: #eff0f1; }
     body #grooming .telling-signs {
-      background: #fff;
-      position: absolute;
-      left: 0px;
-      top: -130px;
-      padding: 15px; }
+      margin-top: -130px; }
   body #staying-safe {
-    background: #f7f7f7; }
+    background: #eff0f1; }
   body #documenteries {
     background: #191919;
     color: #fff; }
