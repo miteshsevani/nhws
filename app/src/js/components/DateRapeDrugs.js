@@ -2,16 +2,19 @@ import React from "react";
 
 export default class DateRapeDrugs extends React.Component {
     render() {
+        const {data} = this.props;
+
         return(
-            <section className="date-rape-drugs">
-                <div className="container">
-                    <div className="row">
-                        <div className="col col-sm-8">
-                            <h4>Date Rape Drugs</h4>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div id="date-rape-drugs">                
+                <div className="col col-xs-6">
+                    <h3>Date Rape Drugs</h3>
+                    {data.map((item,key) => {
+                        return(
+                            <p key={key}>{item.daterapedrugs}</p>
+                        )
+                    })}
+                </div>                
+            </div>
         )
     }
 }

@@ -7,7 +7,7 @@ import Footer from "./Footer.js"
 import Grooming from "./Grooming.js";
 import Header from "./Header.js";
 import PastEvents from "./PastEvents";
-import Prevention from "./Prevention";
+import PreventionDaterape from "./PreventionDaterape";
 import StayingSafe from "./StayingSafe.js";
 
 
@@ -18,7 +18,7 @@ export default class Main extends React.Component {
 				<Header />
 				<Banner />
 				<Grooming />
-				<Prevention />
+				<PreventionDaterape />
 				<StayingSafe />
 				<PastEvents />
 				<Documentaries />

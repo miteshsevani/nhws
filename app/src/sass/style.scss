@@ -7,6 +7,10 @@
 body {
     font-family: Oxygen,'sans-serif';
     
+    h4 {
+      color: crimson;
+    }
+    
     header {
 
     }
@@ -30,7 +34,8 @@ body {
     
     .box-content {
       background:#fff;
-      padding:15px;      
+      margin: 30px;
+      padding:15px;
       -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
@@ -56,7 +61,12 @@ body {
       .banner-content {
         color: $secondary-color;
         text-align: left;
-        font-size:22px;
+        font-size:18px;
+        
+        @media #{$small} {
+          font-size:22px;
+        }
+
         width:70%;
         margin-top: 50px;
         
@@ -69,8 +79,7 @@ body {
 
     #grooming {
       background:$section-background;
-      .telling-signs {
-        margin: 50px;
+      .telling-signs {        
         @media #{$large} {          
           margin: -130px 0px 40px 0px;
         }
@@ -79,6 +88,10 @@ body {
 
     #prevention {
       
+    }
+
+    #date-rape-drugs {
+
     }
 
     #staying-safe {

@@ -1,21 +1,21 @@
 import React from "react";
-import DateRapeDrugs from "./DateRapeDrugs";
 
 export default class Prevention extends React.Component {
+    
     render() {
+        const {data} = this.props;
+        
         return(
-            <section id="prevention">
-                <div className="container">
-                    <div className="row">
-                        <div className="col col-xs-6">
-                            <h3>Prevention</h3>
-                        </div>                
-                        <div className="col col-xs-6">
-                            <DateRapeDrugs />
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div id="prevention">                
+                <div className="col col-xs-6">
+                    <h3>Prevention</h3>
+                    {data.map((item,key) => {
+                        return(
+                            <p key={key}>{item.prevention}</p>
+                        )
+                    })}
+                </div>                
+            </div>
         )
     }
 }
