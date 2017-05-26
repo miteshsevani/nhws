@@ -16,9 +16,8 @@ body {
     }
 
     section {
-      padding:25px 100px; 
-      .row {
-        max-width: 1248px;
+      padding:25px 0px; 
+      .row {        
         margin: 0 auto;
       }
 
@@ -31,10 +30,10 @@ body {
     
     .box-content {
       background:#fff;
-      padding:15px;
+      padding:15px;      
       -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
       -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 
       li {
         border-bottom: 1px solid darken($section-background,10%);
@@ -71,7 +70,10 @@ body {
     #grooming {
       background:$section-background;
       .telling-signs {
-        margin-top: -130px;        
+        margin: 50px;
+        @media #{$large} {          
+          margin: -130px 0px 40px 0px;
+        }
       }
     }
 
