@@ -6,7 +6,7 @@ export default class DateRapeDrugs extends React.Component {
 
         return(
             <div id="date-rape-drugs">                
-                <div className="col col-xs-6">
+                <div className="col-xs-5">
                     <h3>Date Rape Drugs</h3>
                     {data.map((item,key) => {
                         return(

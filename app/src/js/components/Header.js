@@ -1,18 +1,18 @@
 import React from "react";
-import Nav from "./Nav.js";
+import Image from "./Image.js";
 
 export default class Header extends React.Component {	
 	render() {
 		return(
-			<div>
-				<div className="row">
-					<div className="col col-sm-12">
-						<header>
-							<Nav />
-						</header>
+			<header>
+				<div className="container">
+					<div className="row">
+						<div className="col-sm-12">
+							<Image image="images/nhws-logo.png" />
+						</div>
 					</div>
 				</div>
-			</div>
+			</header>
 		);
 	}
 }

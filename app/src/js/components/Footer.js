@@ -9,7 +9,13 @@ export default class Footer extends React.Component {
     render() {
         return (
             <footer>
-                <p>Copyright &copy; National Hindu Welfare Support {this.getDate()}</p>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xs-12">
+                            <p>&copy; Copyright {this.getDate()}, National Hindu Welfare Support. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
             </footer>
         );
     }

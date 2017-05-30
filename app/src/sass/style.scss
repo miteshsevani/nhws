@@ -11,24 +11,35 @@ body {
       color: crimson;
     }
     
-    header {
-
-    }
-
     .navbar {
         margin-bottom: 0px;
     }
 
-    section {
-      padding:25px 0px; 
+    img {
+      max-width: 100%;
+    }
+
+    
+    header {
+      padding-top: 20px;
+    }
+
+    header, section, footer {
       .row {        
         margin: 0 auto;
+      }
+    }
+
+    section, footer {
+      padding:25px 0px;
+      
+      img {
+        @include boxShadow(10px, 1);      
       }
 
       ul {
         list-style: none;
         padding:0px;
-
       }    
     }
     
@@ -36,9 +47,8 @@ body {
       background:#fff;
       margin: 30px;
       padding:15px;
-      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+      
+      @include boxShadow(6px,0.3);
 
       li {
         border-bottom: 1px solid darken($section-background,10%);
@@ -52,10 +62,10 @@ body {
     
     .banner {
       background-image: url('../images/banner-bg.png');
+      background-size: cover;
       height: 306px;
       width: 100%;
       max-width: none;
-      background-size: cover;
       text-align: center;
       
       .banner-content {
@@ -63,13 +73,12 @@ body {
         text-align: left;
         font-size:18px;
         
+        margin-top: 50px;
+        
         @media #{$small} {
           font-size:22px;
         }
 
-        width:70%;
-        margin-top: 50px;
-        
         span {
           color: $primary-color;
           font-weight: 300;
@@ -86,14 +95,6 @@ body {
       }
     }
 
-    #prevention {
-      
-    }
-
-    #date-rape-drugs {
-
-    }
-
     #staying-safe {
       background:$section-background;
     }
@@ -101,6 +102,12 @@ body {
     #documenteries {
       background: $section-background-dark;
       color: #fff;
+    }
+
+    footer {
+      background: $section-background-dark;
+      color: $secondary-color;
+      text-align: center;
     }
 }
 

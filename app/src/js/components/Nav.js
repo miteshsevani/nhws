@@ -5,39 +5,28 @@ export default class Nav extends React.Component {
 	constructor() {
 		super();
 		this.state = {			
-			"navigation": [
+			"navigation": [				
 				{
-					"id":"1",
-					"text":"Home",
-					"link":"#home"
-				},
-				{
-					"id":"2",
-					"text":"Awareness",
-					"link":"#awareness"
-				},
-				{
-					"id":"3",
 					"text":"Grooming",
 					"link":"#grooming"
 				},
 				{
-					"id":"4",
+					"text":"Date Rape Drugs",
+					"link":"#date-rape-drugs"
+				},
+				{
 					"text":"Prevention",
 					"link":"#prevention"
 				},
 				{
-					"id":"5",
 					"text":"Staying Safe",
 					"link":"#staying-safe"
 				},
 				{
-					"id":"6",
 					"text":"Past Events",
 					"link":"#past-events"
 				},
 				{
-					"id":"7",
 					"text":"BBC Inside Out",
 					"link":"#bbcinsideout"
 				}
@@ -48,9 +37,9 @@ export default class Nav extends React.Component {
 	getNav() {		
 		return(		
 			<ul className="nav navbar-nav">
-				{this.state.navigation.map(nav => {
+				{this.state.navigation.map((nav,key) => {
 					return (
-						<li key={nav.id}><a href={nav.link}>{nav.text}</a></li>
+						<li key={key}><a href={nav.link}>{nav.text}</a></li>
 					);
 				})}
 			</ul>
@@ -59,14 +48,15 @@ export default class Nav extends React.Component {
 
 	render() {
 		return(
-			<nav className="navbar navbar-inverse navbar-static-top">
-				<div className="container-fluid">
+
+			<nav className="navbar navbar-default navbar-static-top">
+				<div className="container">
 					<div className="navbar-header">
 						<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span className="sr-only">Toggle navigation</span>
-						<span className="icon-bar"></span>
-						<span className="icon-bar"></span>
-						<span className="icon-bar"></span>
+							<span className="sr-only">Toggle navigation</span>
+							<span className="icon-bar"></span>
+							<span className="icon-bar"></span>
+							<span className="icon-bar"></span>
 						</button>          
 					</div>
 					<div id="navbar" className="navbar-collapse collapse">		

@@ -19,7 +19,7 @@ export default class Grooming extends React.Component {
                                 )
                             })}
                         </div>
-                        <div className="col col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4">
                             <TellingSigns />
                         </div>
                     </div>

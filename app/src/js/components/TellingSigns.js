@@ -12,7 +12,7 @@ export default class TellingSigns extends React.Component {
         
         return(    
             <div className="telling-signs box-content">
-                <h4>Telling Signs</h4>
+                <h4>Know the signs</h4>
                 <ul>                    
                     {this.tellingsigns.map((item,key) => (
                         <BoxContent key={key} item={item} />
