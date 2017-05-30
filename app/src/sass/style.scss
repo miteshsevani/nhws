@@ -6,13 +6,16 @@
 
 body {
     font-family: Oxygen,'sans-serif';
-    
+    font-size: $font-size;
+
     h4 {
       color: crimson;
     }
     
     .navbar {
         margin-bottom: 0px;
+        background: $section-background-dark;
+        border: none;
     }
 
     img {
@@ -21,7 +24,39 @@ body {
 
     
     header {
-      padding-top: 20px;
+      padding: 20px 0px;
+      
+      .contact {
+        font-size: $font-size+2;
+        min-width: 300px;
+        color: $primary-blue;
+
+        @media #{$medium} {
+          float:right;
+        }
+
+        img {
+          float: left;
+          padding:5px;
+          clear: both;
+        }
+        
+        .phone-text {
+          font-size: $font-size - 2;
+        }
+        
+        .phone-number {          
+          color: crimson;
+        }
+
+        .email {
+          margin-top: 20px;
+        }
+
+        a {
+          color: inherit;
+        }
+      }
     }
 
     header, section, footer {
@@ -45,7 +80,6 @@ body {
     
     .box-content {
       background:#fff;
-      margin: 30px;
       padding:15px;
       
       @include boxShadow(6px,0.3);

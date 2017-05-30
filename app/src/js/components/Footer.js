@@ -11,7 +11,7 @@ export default class Footer extends React.Component {
             <footer>
                 <div className="container">
                     <div className="row">
-                        <div className="col-xs-12">
+                        <div className="col-sm-12">
                             <p>&copy; Copyright {this.getDate()}, National Hindu Welfare Support. All Rights Reserved.</p>
                         </div>
                     </div>

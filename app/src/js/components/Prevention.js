@@ -7,7 +7,7 @@ export default class Prevention extends React.Component {
         
         return(
             <div id="prevention">                
-                <div className="col-xs-7">
+                <div className="col-sm-7">
                     <h3>Prevention</h3>
                     {data.map((item,key) => {
                         return(

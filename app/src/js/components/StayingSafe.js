@@ -11,7 +11,7 @@ export default class StayingSafe extends React.Component {
                 <section id="staying-safe">
                     <div className="container">
                         <div className="row">
-                            <div className="col-xs-6">
+                            <div className="col-sm-6">
                                 <h3>Staying Safe</h3>
                                 <ul>
                                 {this.stayingSafe.map((item, key) => {

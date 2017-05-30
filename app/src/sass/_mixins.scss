@@ -3,3 +3,9 @@
     -moz-box-shadow: 0 1px $size rgba(0, 0, 0, $opacity);
     box-shadow: 0 1px $size rgba(0, 0, 0, $opacity);
 }
+
+@mixin background($repeat, $position, $size) {
+    background-repeat: $repeat;
+    background-position: $position;
+    background-size: $size;
+}
