@@ -1,21 +1,26 @@
 import React from "react";
-
 export default class Prevention extends React.Component {
     
-    render() {
-        const {data} = this.props;
-        
+    constructor() {
+        super();
+        this.data = require("../content/prevention.json");
+    }
+    render() {        
         return(
-            <div id="prevention">                
-                <div className="col-sm-7">
-                    <h3>Prevention</h3>
-                    {data.map((item,key) => {
-                        return(
-                            <p key={key}>{item.prevention}</p>
-                        )
-                    })}
-                </div>                
-            </div>
+            <section id="prevention">                
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <h3>Prevention</h3>
+                            {this.data.map((text,key) => {
+                                return(
+                                    <p key={key}>{text}</p>
+                                )
+                            })}
+                        </div>
+                    </div>
+                </div>
+            </section>
         )
     }
 }

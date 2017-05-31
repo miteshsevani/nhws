@@ -27,8 +27,8 @@ export default class Nav extends React.Component {
 					"link":"#past-events"
 				},
 				{
-					"text":"BBC Inside Out",
-					"link":"#bbcinsideout"
+					"text":"Documentaries",
+					"link":"#documentaries"
 				}
 			]
 		};
@@ -49,7 +49,7 @@ export default class Nav extends React.Component {
 	render() {
 		return(
 
-			<nav className="navbar navbar-default navbar-static-top">
+			<nav className="navbar navbar-inverse navbar-static-top">
 				<div className="container">
 					<div className="navbar-header">
 						<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">

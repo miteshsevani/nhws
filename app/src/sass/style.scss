@@ -24,37 +24,47 @@ body {
 
     
     header {
-      padding: 20px 0px;
-      
+      padding: 20px 0px;      
+      .image {
+        text-align: center;
+      }
+
       .contact {
-        font-size: $font-size+2;
-        min-width: 300px;
-        color: $primary-blue;
+        font-size: $font-size+4;
+        width: 100%;
+        max-width: 350px;
+        color: crimson;
+        margin-top: 20px;
+        
 
         @media #{$medium} {
+          margin-top: 0px;
           float:right;
         }
 
-        img {
+        div.image {
           float: left;
-          padding:5px;
+          img {
+            padding:5px;
+          }
+        }
+        
+        .phone {
+          text-align: left;
+          .phone-text {
+            font-size: $font-size;
+            padding-top: 5px;
+            float: left;
+          }
+        }
+
+        .email {          
           clear: both;
-        }
-        
-        .phone-text {
-          font-size: $font-size - 2;
-        }
-        
-        .phone-number {          
-          color: crimson;
-        }
-
-        .email {
-          margin-top: 20px;
-        }
-
-        a {
-          color: inherit;
+          color: $primary-blue;
+          a {
+            color: inherit;
+            vertical-align: -webkit-baseline-middle;
+          }
         }
       }
     }
@@ -69,7 +79,7 @@ body {
       padding:25px 0px;
       
       img {
-        @include boxShadow(10px, 1);      
+        width: 100%; 
       }
 
       ul {
@@ -81,6 +91,7 @@ body {
     .box-content {
       background:#fff;
       padding:15px;
+      border-bottom: 4px solid $primary-orange;
       
       @include boxShadow(6px,0.3);
 
@@ -129,13 +140,18 @@ body {
       }
     }
 
+    #date-rape-drugs {
+      background: black;
+      color: $secondary-color;
+    }
+    
     #staying-safe {
       background:$section-background;
     }
 
-    #documenteries {
+    #documentaries {
       background: $section-background-dark;
-      color: #fff;
+      color: $secondary-color;
     }
 
     footer {

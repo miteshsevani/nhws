@@ -1,20 +1,31 @@
 import React from "react";
-
+import Image from "./Image.js";
 export default class DateRapeDrugs extends React.Component {
-    render() {
-        const {data} = this.props;
+    
+    constructor() {
+        super();
+        this.data = require("../content/date-rape-drugs.json");
+    }
 
+    render() {
         return(
-            <div id="date-rape-drugs">                
-                <div className="col-sm-5">
-                    <h3>Date Rape Drugs</h3>
-                    {data.map((item,key) => {
-                        return(
-                            <p key={key}>{item.daterapedrugs}</p>
-                        )
-                    })}
+            <section id="date-rape-drugs">                
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-5">
+                            <Image image="images/date-rape.png" />
+                        </div>
+                        <div className="col-sm-7">
+                            <h3>Date Rape Drugs</h3>
+                            {this.data.map((text,key) => {
+                                return(
+                                    <p key={key}>{text}</p>
+                                )
+                            })}
+                        </div>
+                    </div>
                 </div>                
-            </div>
+            </section>
         )
     }
 }

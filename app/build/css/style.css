@@ -15,39 +15,47 @@ body {
     max-width: 100%; }
   body header {
     padding: 20px 0px; }
+    body header .image {
+      text-align: center; }
     body header .contact {
-      font-size: 16px;
-      min-width: 300px;
-      color: #0099cc; }
+      font-size: 18px;
+      width: 100%;
+      max-width: 350px;
+      color: crimson;
+      margin-top: 20px; }
       @media only screen and (min-width: 768px) {
         body header .contact {
+          margin-top: 0px;
           float: right; } }
-      body header .contact img {
-        float: left;
-        padding: 5px;
-        clear: both; }
-      body header .contact .phone-text {
-        font-size: 12px; }
-      body header .contact .phone-number {
-        color: crimson; }
+      body header .contact div.image {
+        float: left; }
+        body header .contact div.image img {
+          padding: 5px; }
+      body header .contact .phone {
+        text-align: left; }
+        body header .contact .phone .phone-text {
+          font-size: 14px;
+          padding-top: 5px;
+          float: left; }
       body header .contact .email {
-        margin-top: 20px; }
-      body header .contact a {
-        color: inherit; }
+        clear: both;
+        color: #0099cc; }
+        body header .contact .email a {
+          color: inherit;
+          vertical-align: -webkit-baseline-middle; }
   body header .row, body section .row, body footer .row {
     margin: 0 auto; }
   body section, body footer {
     padding: 25px 0px; }
     body section img, body footer img {
-      -webkit-box-shadow: 0 1px 10px black;
-      -moz-box-shadow: 0 1px 10px black;
-      box-shadow: 0 1px 10px black; }
+      width: 100%; }
     body section ul, body footer ul {
       list-style: none;
       padding: 0px; }
   body .box-content {
     background: #fff;
     padding: 15px;
+    border-bottom: 4px solid #ff9933;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3); }
@@ -79,11 +87,14 @@ body {
     @media only screen and (min-width: 992px) {
       body #grooming .telling-signs {
         margin: -130px 0px 40px 0px; } }
+  body #date-rape-drugs {
+    background: black;
+    color: #b3b2b2; }
   body #staying-safe {
     background: #eff0f1; }
-  body #documenteries {
+  body #documentaries {
     background: #191919;
-    color: #fff; }
+    color: #b3b2b2; }
   body footer {
     background: #191919;
     color: #b3b2b2;

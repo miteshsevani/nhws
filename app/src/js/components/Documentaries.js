@@ -4,7 +4,7 @@ export default class Documentaries extends React.Component {
 
     render() {
         return(
-            <section id="documenteries">
+            <section id="documentaries">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-8">
