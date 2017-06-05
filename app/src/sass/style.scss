@@ -24,8 +24,8 @@ body {
 
     
     header {
-      background:url('../images/banner-bg.png') no-repeat;
-      background-size:cover; 
+      background:url('../images/banner-bg.png');
+      @include background(no-repeat, initial, cover);
       padding: 20px 0px; 
 
       h1 {
@@ -113,26 +113,33 @@ body {
     }
     
     .banner {
-      background: #000 url('../images/know-the-signs.png');
-      background-repeat: no-repeat;
-      background-size: cover;
+      background: #000 url('../images/know-the-signs.png');      
       background-attachment: fixed;
-      -webkit-filter: grayscale(100%);
-      filter: gray;
-      height: 350px;
-      
+      @include background(no-repeat, 50%, cover);
+      height: 350px;      
       max-width: none;
       text-align: center;
       
-      .banner-content {
-        
-        color: $primary-color;
+      .banner-content {        
         text-align: left;
-        font-size:18px;
         margin-top: 50px;
-        
-        @media #{$small} {
-          font-size:22px;
+
+        h2 {          
+          color: $section-background;
+          background-color: $section-background-dark;
+          font-weight: 100;
+          display: inline;
+          box-shadow: 10px 0 0 $section-background-dark, -10px 0 0 $section-background-dark;
+          box-decoration-break: clone;
+          padding-bottom: 3px;
+          font-size: 22px;
+          line-height: 34px;
+
+          @media #{$small} {
+            line-height: 46px;
+            letter-spacing: 1px;  
+            font-size: 30px;
+          }  
         }
       }
     }
@@ -147,8 +154,33 @@ body {
     }
 
     #date-rape-drugs {
+      padding: 0px;
+      background-color: #000;
+      color: $secondary-color;
+      
 
+      .row {
+        position: relative;
+      }
+      
+      .dr-bg {
+        
+      }
+
+      .dr-text {
+        padding:25px 0px;
+        
+        span {
+          color: $primary-orange;
+        }
+
+        h3 {
+          color: $primary-blue;
+        }
+      }
+      
     }
+
     #prevention {
       background:$section-background;
     }

@@ -14,7 +14,9 @@ body {
   body img {
     max-width: 100%; }
   body header {
-    background: url("../images/banner-bg.png") no-repeat;
+    background: url("../images/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: initial;
     background-size: cover;
     padding: 20px 0px; }
     body header h1 {
@@ -70,27 +72,48 @@ body {
         border-bottom: none; }
   body .banner {
     background: #000 url("../images/know-the-signs.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    -webkit-filter: grayscale(100%);
-    filter: gray;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
     height: 350px;
     max-width: none;
     text-align: center; }
     body .banner .banner-content {
-      color: #fff;
       text-align: left;
-      font-size: 18px;
       margin-top: 50px; }
-      @media only screen and (min-width: 576px) {
-        body .banner .banner-content {
-          font-size: 22px; } }
+      body .banner .banner-content h2 {
+        color: #eff0f1;
+        background-color: #191919;
+        font-weight: 100;
+        display: inline;
+        box-shadow: 10px 0 0 #191919, -10px 0 0 #191919;
+        box-decoration-break: clone;
+        padding-bottom: 3px;
+        font-size: 22px;
+        line-height: 34px; }
+        @media only screen and (min-width: 576px) {
+          body .banner .banner-content h2 {
+            line-height: 46px;
+            letter-spacing: 1px;
+            font-size: 30px; } }
   body #grooming {
     background: #eff0f1; }
     @media only screen and (min-width: 992px) {
       body #grooming .telling-signs {
         margin: -200px 0px 40px 0px; } }
+  body #date-rape-drugs {
+    padding: 0px;
+    background-color: #000;
+    color: #b3b2b2; }
+    body #date-rape-drugs .row {
+      position: relative; }
+    body #date-rape-drugs .dr-text {
+      padding: 25px 0px; }
+      body #date-rape-drugs .dr-text span {
+        color: #f57c00; }
+      body #date-rape-drugs .dr-text h3 {
+        color: #0099cc; }
   body #prevention {
     background: #eff0f1; }
   body #staying-safe {
