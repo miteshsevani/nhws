@@ -13,7 +13,7 @@ export default class DateRapeDrugs extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-6 dr-bg">
-                            <Image image="../images/drink-spiking.jpg" />
+                            <Image image="images/drink-spiking.jpg" />
                         </div>
                         <div className="col-sm-6 dr-text">
                             <h3>Date Rape Drugs</h3>
