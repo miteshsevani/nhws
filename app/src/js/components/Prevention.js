@@ -10,7 +10,7 @@ export default class Prevention extends React.Component {
             <section id="prevention">                
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12">
+                        <div className="col-sm-6">
                             <h3>Prevention</h3>
                             {this.data.map((text,key) => {
                                 return(

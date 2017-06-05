@@ -8,10 +8,13 @@ export default class Header extends React.Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-sm-2">
-							<Image image="images/nhws-logo.png" />
+							<Image image="images/nhws-logo-2.png" />
 						</div>						
+						<div className="col-sm-6">
+							<h1>National Hindu Welfare Support</h1>
+						</div>
 
-						<div className="col-md-4 col-md-offset-6">
+						<div className="col-sm-4 ">
 							<div className="contact box-content">
 								<div className="phone">
 									<Image image="images/icons/icon-phone.svg" />

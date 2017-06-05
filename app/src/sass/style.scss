@@ -24,7 +24,14 @@ body {
 
     
     header {
-      padding: 20px 0px;      
+      background:url('../images/banner-bg.png') no-repeat;
+      background-size:cover; 
+      padding: 20px 0px; 
+
+      h1 {
+        color: $primary-orange;
+      } 
+
       .image {
         text-align: center;
       }
@@ -106,27 +113,26 @@ body {
     }
     
     .banner {
-      background-image: url('../images/banner-bg.png');
+      background: #000 url('../images/know-the-signs.png');
+      background-repeat: no-repeat;
       background-size: cover;
-      height: 306px;
-      width: 100%;
+      background-attachment: fixed;
+      -webkit-filter: grayscale(100%);
+      filter: gray;
+      height: 350px;
+      
       max-width: none;
       text-align: center;
       
       .banner-content {
-        color: $secondary-color;
+        
+        color: $primary-color;
         text-align: left;
         font-size:18px;
-        
         margin-top: 50px;
         
         @media #{$small} {
           font-size:22px;
-        }
-
-        span {
-          color: $primary-color;
-          font-weight: 300;
         }
       }
     }
@@ -135,14 +141,16 @@ body {
       background:$section-background;
       .telling-signs {        
         @media #{$large} {          
-          margin: -130px 0px 40px 0px;
+          margin: -200px 0px 40px 0px;
         }
       }
     }
 
     #date-rape-drugs {
-      background: black;
-      color: $secondary-color;
+
+    }
+    #prevention {
+      background:$section-background;
     }
     
     #staying-safe {
