@@ -7,10 +7,17 @@ body {
   font-size: 14px; }
   body h4 {
     color: crimson; }
+  body .container {
+    padding: 0px; }
+    @media only screen and (min-width: 576px) {
+      body .container {
+        padding: 0px 25px; } }
+    body .container > .navbar-header {
+      margin-right: 0px;
+      margin-left: 0px; }
   body .navbar {
     margin-bottom: 0px;
-    background: #191919;
-    border: none; }
+    background: #191919; }
   body img {
     max-width: 100%; }
   body header {
@@ -52,7 +59,7 @@ body {
   body header .row, body section .row, body footer .row {
     margin: 0 auto; }
   body section, body footer {
-    padding: 25px 0px; }
+    padding: 25px 0px 45px 0px; }
     body section img, body footer img {
       width: 100%; }
     body section ul, body footer ul {
@@ -74,11 +81,14 @@ body {
     background: #000 url("../images/know-the-signs.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 50% 100px;
     background-size: cover;
     height: 350px;
     max-width: none;
     text-align: center; }
+    @media only screen and (min-width: 768px) {
+      body .banner {
+        background-position: 50%; } }
     body .banner .banner-content {
       text-align: left;
       margin-top: 50px; }
@@ -103,13 +113,23 @@ body {
       body #grooming .telling-signs {
         margin: -200px 0px 40px 0px; } }
   body #date-rape-drugs {
-    padding: 0px;
     background-color: #000;
-    color: #b3b2b2; }
-    body #date-rape-drugs .row {
-      position: relative; }
+    color: #b3b2b2;
+    padding-top: 0px; }
+    @media only screen and (min-width: 768px) {
+      body #date-rape-drugs {
+        padding: 0px; }
+        body #date-rape-drugs .dr-bg .image {
+          height: 315px;
+          display: table-cell;
+          vertical-align: middle; }
+          body #date-rape-drugs .dr-bg .image img {
+            height: 100%; } }
     body #date-rape-drugs .dr-text {
-      padding: 25px 0px; }
+      padding: 25px 15px; }
+      @media only screen and (min-width: 992px) {
+        body #date-rape-drugs .dr-text {
+          padding: 50px 15px; } }
       body #date-rape-drugs .dr-text span {
         color: #f57c00; }
       body #date-rape-drugs .dr-text h3 {
