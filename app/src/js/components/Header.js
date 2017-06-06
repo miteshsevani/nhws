@@ -8,7 +8,7 @@ export default class Header extends React.Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-sm-2">
-							<Image image="images/nhws-logo-2.png" />
+							<Image image="images/nhws-logo.png" />
 						</div>						
 						<div className="col-sm-6">
 							<h1>National Hindu Welfare Support</h1>

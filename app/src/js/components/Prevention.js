@@ -3,7 +3,7 @@ export default class Prevention extends React.Component {
     
     constructor() {
         super();
-        this.data = require("../content/prevention.json");
+        this.state = require("../content/content.json");
     }
     render() {        
         return(
@@ -12,7 +12,7 @@ export default class Prevention extends React.Component {
                     <div className="row">
                         <div className="col-sm-6">
                             <h3>Prevention</h3>
-                            {this.data.map((text,key) => {
+                            {this.state.prevention.map((text,key) => {
                                 return(
                                     <p key={key}>{text}</p>
                                 )

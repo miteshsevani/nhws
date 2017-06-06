@@ -4,34 +4,7 @@ export default class Nav extends React.Component {
 	
 	constructor() {
 		super();
-		this.state = {			
-			"navigation": [				
-				{
-					"text":"Grooming",
-					"link":"#grooming"
-				},
-				{
-					"text":"Date Rape Drugs",
-					"link":"#date-rape-drugs"
-				},
-				{
-					"text":"Prevention",
-					"link":"#prevention"
-				},
-				{
-					"text":"Staying Safe",
-					"link":"#staying-safe"
-				},
-				{
-					"text":"Past Events",
-					"link":"#past-events"
-				},
-				{
-					"text":"Documentaries",
-					"link":"#documentaries"
-				}
-			]
-		};
+		this.state = require("../content/nav.json");
 	}
 
 	getNav() {		

@@ -3,7 +3,7 @@ import React from "react";
 export default class StayingSafe extends React.Component {
     constructor() {
         super();
-        this.stayingSafe = require("../content/staying-safe.json");
+        this.state = require("../content/content.json");
     }
 
     render() {
@@ -14,9 +14,9 @@ export default class StayingSafe extends React.Component {
                             <div className="col-sm-6">
                                 <h3>Staying Safe</h3>
                                 <ul>
-                                {this.stayingSafe.map((item, key) => {
+                                {this.state.staying_safe.map((safe, key) => {
                                     return(
-                                        <li key={key}>{item}</li>
+                                        <li key={key}>{safe.item}</li>
                                     )
                                 })}
                                 </ul>

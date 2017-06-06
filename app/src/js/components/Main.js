@@ -13,8 +13,13 @@ import Prevention from "./Prevention";
 import StayingSafe from "./StayingSafe.js";
 
 
-export default class Main extends React.Component {	
+export default class Main extends React.Component {
+	getDefaultProps() {
+
+	}
+	
 	render() {
+		this.state = require("../content/nav.json");
 		return(
 			<div>
 				<Header />

@@ -7,13 +7,14 @@
 body {
     font-family: Oxygen,'sans-serif';
     font-size: $font-size;
+    line-height: 1.5em;
 
     h4 {
       color: crimson;
     }
     
     .container {
-      padding: 0px;
+      padding: 0px;      
       @media #{$small} {
         padding: 0px 25px;
       }
@@ -124,11 +125,7 @@ body {
     .banner {
       background: #000 url('../images/know-the-signs.png');      
       background-attachment: fixed;
-      @include background(no-repeat, 50% 100px, cover);
-      @media #{$medium} {
-        background-position: 50%;
-      }
-
+      @include background(no-repeat, 50%, cover);
       height: 350px;      
       max-width: none;
       text-align: center;
@@ -176,7 +173,7 @@ body {
         padding: 0px;
         .dr-bg {        
           .image {
-            height: 315px;
+            height: 348px;
             display: table-cell;
             vertical-align: middle;
             img {
@@ -189,7 +186,7 @@ body {
       .dr-text {
         padding: 25px 15px;
         @media #{$large} {
-          padding: 50px 15px;
+          padding: 40px 15px 50px 15px;
         }
         span {
           color: $primary-orange;
@@ -207,7 +204,17 @@ body {
     }
     
     #staying-safe {
-      background:$section-background;
+      
+      ul {
+        li {
+          &:before {
+            content: " ";
+            width: 20px;
+            height: 20px;
+            background: $secondary-color;
+          }
+        }
+      }      
     }
 
     #documentaries {

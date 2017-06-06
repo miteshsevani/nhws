@@ -4,7 +4,8 @@
 
 body {
   font-family: Oxygen,'sans-serif';
-  font-size: 14px; }
+  font-size: 16px;
+  line-height: 1.5em; }
   body h4 {
     color: crimson; }
   body .container {
@@ -31,7 +32,7 @@ body {
     body header .image {
       text-align: center; }
     body header .contact {
-      font-size: 18px;
+      font-size: 20px;
       width: 100%;
       max-width: 350px;
       color: crimson;
@@ -47,7 +48,7 @@ body {
       body header .contact .phone {
         text-align: left; }
         body header .contact .phone .phone-text {
-          font-size: 14px;
+          font-size: 16px;
           padding-top: 5px;
           float: left; }
       body header .contact .email {
@@ -81,14 +82,11 @@ body {
     background: #000 url("../images/know-the-signs.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: 50% 100px;
+    background-position: 50%;
     background-size: cover;
     height: 350px;
     max-width: none;
     text-align: center; }
-    @media only screen and (min-width: 768px) {
-      body .banner {
-        background-position: 50%; } }
     body .banner .banner-content {
       text-align: left;
       margin-top: 50px; }
@@ -120,7 +118,7 @@ body {
       body #date-rape-drugs {
         padding: 0px; }
         body #date-rape-drugs .dr-bg .image {
-          height: 315px;
+          height: 348px;
           display: table-cell;
           vertical-align: middle; }
           body #date-rape-drugs .dr-bg .image img {
@@ -129,15 +127,18 @@ body {
       padding: 25px 15px; }
       @media only screen and (min-width: 992px) {
         body #date-rape-drugs .dr-text {
-          padding: 50px 15px; } }
+          padding: 40px 15px 50px 15px; } }
       body #date-rape-drugs .dr-text span {
         color: #f57c00; }
       body #date-rape-drugs .dr-text h3 {
         color: #0099cc; }
   body #prevention {
     background: #eff0f1; }
-  body #staying-safe {
-    background: #eff0f1; }
+  body #staying-safe ul li:before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    background: #b3b2b2; }
   body #documentaries {
     background: #191919;
     color: #b3b2b2; }

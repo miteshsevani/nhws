@@ -3,7 +3,7 @@ import TellingSigns from "./TellingSigns.js";
 export default class Grooming extends React.Component {
     constructor() {
         super();
-        this.grooming = require("../content/grooming.json");
+        this.state = require("../content/content.json");
     }
     
     render() {
@@ -13,7 +13,7 @@ export default class Grooming extends React.Component {
                     <div className="row">
                         <div className="col-sm-12 col-md-8">
                             <h3>Grooming</h3>
-                            {this.grooming.map((text,key) => {
+                            {this.state.grooming.map((text,key) => {
                                 return(
                                     <p key={key}>{text}</p>
                                 )

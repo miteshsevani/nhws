@@ -4,7 +4,7 @@ export default class DateRapeDrugs extends React.Component {
     
     constructor() {
         super();
-        this.data = require("../content/date-rape-drugs.json");
+        this.state = require("../content/content.json");
     }
 
     render() {
@@ -17,7 +17,7 @@ export default class DateRapeDrugs extends React.Component {
                         </div>
                         <div className="col-sm-6 dr-text">
                             <h3>Date Rape Drugs</h3>
-                            {this.data.map((text,key) => {
+                            {this.state.date_rape_drugs.map((text,key) => {
                                 return(
                                     <p key={key}>{text}</p>
                                 )

@@ -4,7 +4,7 @@ export default class TellingSigns extends React.Component {
 
     constructor() {
         super();
-        this.tellingsigns = require('../content/telling-signs.json');
+        this.state = require('../content/content.json');
     }
 
 
@@ -14,8 +14,8 @@ export default class TellingSigns extends React.Component {
             <div className="telling-signs box-content">
                 <h4>Know the signs</h4>
                 <ul>                    
-                    {this.tellingsigns.map((item,key) => (
-                        <BoxContent key={key} item={item} />
+                    {this.state.telling_signs.map((sign,key) => (
+                        <BoxContent key={key} item={sign.item} />
                     ))}        
                 </ul>                    
             </div>
