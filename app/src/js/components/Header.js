@@ -7,14 +7,14 @@ export default class Header extends React.Component {
 			<header>
 				<div className="container">
 					<div className="row">
-						<div className="col-sm-2">
+						<div className="col-xs-3 col-sm-2">
 							<Image image="images/nhws-logo.png" />
 						</div>						
-						<div className="col-sm-6">
+						<div className="col-xs-9 col-sm-6">
 							<h1>National Hindu Welfare Support</h1>
 						</div>
 
-						<div className="col-sm-4 ">
+						<div className="col-xs-12 col-sm-4">
 							<div className="contact box-content">
 								<div className="phone">
 									<Image image="images/icons/icon-phone.svg" />
