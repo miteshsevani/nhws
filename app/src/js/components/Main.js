@@ -14,21 +14,20 @@ import StayingSafe from "./StayingSafe.js";
 
 
 export default class Main extends React.Component {
-	getDefaultProps() {
 
-	}
-	
-	render() {
-		this.state = require("../content/nav.json");
+	render() {		
+		const navigation = require("../content/nav.json");
+		const content = require("../content/content.json");
+		
 		return(
 			<div>
 				<Header />
-				<Nav />
+				<Nav navigation={navigation} />
 				<Banner />
-				<Grooming />
-				<Daterape />
-				<Prevention />
-				<StayingSafe />
+				<Grooming content={content} />
+				<Daterape content={content.date_rape_drugs} />
+				<Prevention content={content.prevention} />
+				<StayingSafe content={content.staying_safe} />
 				<PastEvents />
 				<Documentaries />
 				<Footer />

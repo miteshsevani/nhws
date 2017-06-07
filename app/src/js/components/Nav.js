@@ -2,15 +2,10 @@ import React from "react";
 
 export default class Nav extends React.Component {
 	
-	constructor() {
-		super();
-		this.state = require("../content/nav.json");
-	}
-
-	getNav() {		
+	getNav(nav) {		
 		return(		
 			<ul className="nav navbar-nav">
-				{this.state.navigation.map((nav,key) => {
+				{nav.navigation.map((nav,key) => {
 					return (
 						<li key={key}><a href={nav.link}>{nav.text}</a></li>
 					);
@@ -20,8 +15,10 @@ export default class Nav extends React.Component {
 	}
 
 	render() {
-		return(
 
+		const {navigation} = this.props;
+
+		return(
 			<nav className="navbar navbar-inverse navbar-static-top">
 				<div className="container">
 					<div className="navbar-header">
@@ -33,7 +30,7 @@ export default class Nav extends React.Component {
 						</button>          
 					</div>
 					<div id="navbar" className="navbar-collapse collapse">		
-						{this.getNav()}
+						{this.getNav(navigation)}
 					</div>
 				</div>
 			</nav>

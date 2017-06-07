@@ -7,6 +7,7 @@ export default class StayingSafe extends React.Component {
     }
 
     render() {
+        const {content} = this.props;
         return(
                 <section id="staying-safe">
                     <div className="container">
@@ -14,7 +15,7 @@ export default class StayingSafe extends React.Component {
                             <div className="col-sm-6">
                                 <h3>Staying Safe</h3>
                                 <ul>
-                                {this.state.staying_safe.map((safe, key) => {
+                                {content.map((safe, key) => {
                                     return(
                                         <li key={key}>{safe.item}</li>
                                     )

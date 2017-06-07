@@ -1,13 +1,9 @@
 import React from "react";
 import Image from "./Image.js";
 export default class DateRapeDrugs extends React.Component {
-    
-    constructor() {
-        super();
-        this.state = require("../content/content.json");
-    }
 
     render() {
+        const {content} = this.props;
         return(
             <section id="date-rape-drugs">                
                 <div className="container">
@@ -17,7 +13,7 @@ export default class DateRapeDrugs extends React.Component {
                         </div>
                         <div className="col-sm-6 dr-text">
                             <h3>Date Rape Drugs</h3>
-                            {this.state.date_rape_drugs.map((text,key) => {
+                            {content.map((text,key) => {
                                 return(
                                     <p key={key}>{text}</p>
                                 )
