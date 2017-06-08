@@ -26,8 +26,14 @@ body {
     }
 
     .navbar {
-        margin-bottom: 0px;
-        background: $section-background-dark;
+      .navbar-collapse {
+        padding: 0 25px;
+        @media #{$small} {
+          padding: 0px;
+        }
+      }
+      margin-bottom: 0px;
+      background: $section-background-dark;
     }
 
     img {
@@ -39,55 +45,24 @@ body {
       @include background(no-repeat, initial, cover);
       padding: 20px 0px; 
 
-      h1 {
-        color: $primary-orange;
-        font-size: 28px;
-        margin: 0px;
+      .header-title {
+        padding-left:0px;
+        display: table;
+        height: 60px;
         @media #{$small} {
-          font-size: 36px;
-          margin: 15px 0px;
+          height: 80px;
         }
-      } 
-
-      .image {
-        text-align: center;
-      }
-
-      .contact {
-        font-size: $font-size+4;
-        width: 100%;
-        max-width: 350px;
-        color: crimson;
-        margin-top: 20px;
-        
-
-        @media #{$medium} {
-          margin-top: 0px;
-          float:right;
+        @media #{$large} {
+          height: 115px;
         }
-
-        div.image {
-          float: left;
-          img {
-            padding:5px;
-          }
-        }
-        
-        .phone {
-          text-align: left;
-          .phone-text {
-            font-size: $font-size;
-            padding-top: 5px;
-            float: left;
-          }
-        }
-
-        .email {          
-          clear: both;
-          color: $primary-blue;
-          a {
-            color: inherit;
-            vertical-align: -webkit-baseline-middle;
+        h1 {
+          color: $primary-orange;
+          font-size: $font-size + 2;
+          vertical-align: middle;
+          display: table-cell;
+          @media #{$small} {
+            font-size: 35px;
+            margin: 15px 0px;
           }
         }
       }

@@ -2,6 +2,7 @@ import React from "react";
 
 import Awareness from "./Awareness.js";
 import Banner from "./Banner.js";
+import Contact from "./Contact.js";
 import Daterape from "./DateRapeDrugs";
 import Documentaries from "./Documentaries.js";
 import Footer from "./Footer.js"
@@ -21,6 +22,7 @@ export default class Main extends React.Component {
 		
 		return(
 			<div>
+				<Contact content={content.contact} />
 				<Header />
 				<Nav navigation={navigation} />
 				<Banner />

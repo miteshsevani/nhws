@@ -20,6 +20,11 @@ body {
   body .navbar {
     margin-bottom: 0px;
     background: #191919; }
+    body .navbar .navbar-collapse {
+      padding: 0 25px; }
+      @media only screen and (min-width: 576px) {
+        body .navbar .navbar-collapse {
+          padding: 0px; } }
   body img {
     max-width: 100%; }
   body header {
@@ -28,42 +33,25 @@ body {
     background-position: initial;
     background-size: cover;
     padding: 20px 0px; }
-    body header h1 {
-      color: #f57c00;
-      font-size: 28px;
-      margin: 0px; }
+    body header .header-title {
+      padding-left: 0px;
+      display: table;
+      height: 60px; }
       @media only screen and (min-width: 576px) {
-        body header h1 {
-          font-size: 36px;
-          margin: 15px 0px; } }
-    body header .image {
-      text-align: center; }
-    body header .contact {
-      font-size: 20px;
-      width: 100%;
-      max-width: 350px;
-      color: crimson;
-      margin-top: 20px; }
-      @media only screen and (min-width: 768px) {
-        body header .contact {
-          margin-top: 0px;
-          float: right; } }
-      body header .contact div.image {
-        float: left; }
-        body header .contact div.image img {
-          padding: 5px; }
-      body header .contact .phone {
-        text-align: left; }
-        body header .contact .phone .phone-text {
-          font-size: 16px;
-          padding-top: 5px;
-          float: left; }
-      body header .contact .email {
-        clear: both;
-        color: #0099cc; }
-        body header .contact .email a {
-          color: inherit;
-          vertical-align: -webkit-baseline-middle; }
+        body header .header-title {
+          height: 80px; } }
+      @media only screen and (min-width: 992px) {
+        body header .header-title {
+          height: 115px; } }
+      body header .header-title h1 {
+        color: #f57c00;
+        font-size: 18px;
+        vertical-align: middle;
+        display: table-cell; }
+        @media only screen and (min-width: 576px) {
+          body header .header-title h1 {
+            font-size: 35px;
+            margin: 15px 0px; } }
   body header .row, body section .row, body footer .row {
     margin: 0 auto; }
   body section, body footer {

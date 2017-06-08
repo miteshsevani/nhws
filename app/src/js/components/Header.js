@@ -10,25 +10,9 @@ export default class Header extends React.Component {
 						<div className="col-xs-3 col-sm-2">
 							<Image image="images/nhws-logo.png" />
 						</div>						
-						<div className="col-xs-9 col-sm-6">
+						<div className="col-xs-9 col-sm-9 header-title">
 							<h1>National Hindu Welfare Support</h1>
-						</div>
-
-						<div className="col-xs-12 col-sm-4">
-							<div className="contact box-content">
-								<div className="phone">
-									<Image image="images/icons/icon-phone.svg" />
-									<div className="phone-text">
-										Confidential helpline<br />
-										020 7341 6279
-									</div>
-								</div>
-								<div className="email">
-									<Image image="images/icons/icon-mail.svg" />																
-									<div><a href="mailto:info.nhws@gmail.com">info.nhws@gmail.com</a></div>
-								</div>
-							</div>
-						</div>
+						</div>						
 					</div>
 				</div>
 			</header>
