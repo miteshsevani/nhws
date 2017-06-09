@@ -13,11 +13,7 @@ export default class DateRapeDrugs extends React.Component {
                         </div>
                         <div className="col-sm-6 dr-text">
                             <h3>Date Rape Drugs</h3>
-                            {content.map((text,key) => {
-                                return(
-                                    <p key={key}>{text}</p>
-                                )
-                            })}
+                            <p>{content}</p>
                         </div>
                     </div>
                 </div>                

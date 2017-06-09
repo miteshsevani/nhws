@@ -3,9 +3,9 @@ import React from "react";
 export default class Image extends React.Component {
     render() {
         return(
-            <div className="image">
+            <span className="image">
                 <img src={this.props.image} />
-            </div>
+            </span>
         )
     }
 }

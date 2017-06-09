@@ -1,8 +1,13 @@
 {			
     "contact": [
-        { "text" : "Confidential helpline" },
-        { "phone" : "020 7341 6279" },
-        { "email" : "info.nhws@gmail.com" }
+        { 
+            "text" : "Confidential helpline",
+            "phone" : "020 7341 6279",
+            "email" : "info.nhws@gmail.com"
+        }
+    ],    
+    "banner": [
+        "National Hindu Welfare Support works with communities, families and girls to raise awareness about grooming and provides assistance and support to those in need."
     ],
     "grooming": [
         "Grooming is when someone builds an emotional connection with you to gain your trust for the purposes of sexual abuse leading to conversion to another faith. Many victims do not understand that they have been groomed or that what has happened is abuse.",

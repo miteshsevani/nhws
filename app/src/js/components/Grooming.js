@@ -8,7 +8,7 @@ export default class Grooming extends React.Component {
             <section id="grooming">                
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 col-md-8">
+                        <div className="col-sm-12 col-md-7">
                             <h3>Grooming</h3>
                             {content.grooming.map((text,key) => {
                                 return(
@@ -16,7 +16,7 @@ export default class Grooming extends React.Component {
                                 )
                             })}
                         </div>
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 col-md-offset-1">
                             <TellingSigns content={content.telling_signs} />
                         </div>
                     </div>

@@ -9,15 +9,8 @@ export default class Contact extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-xs-12">
-                            {content.map((item, key) => {
-                                return(
-                                    <span key={key}>
-                                        <span className="text"> {item.text} </span>                                        
-                                        <span className="phone"> {item.phone} </span>
-                                        <span className="email"> {item.email} </span>
-                                    </span>
-                                )
-                            })}
+                            <h5><Image image="images/icons/icon-phone.svg" />{content[0].text}</h5>
+                            <h3>{content[0].phone}</h3>
                         </div>
                     </div>
                 </div>

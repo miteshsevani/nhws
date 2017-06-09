@@ -9,11 +9,7 @@ export default class Prevention extends React.Component {
                     <div className="row">
                         <div className="col-sm-6">
                             <h3>Prevention</h3>
-                            {content.map((text,key) => {
-                                return(
-                                    <p key={key}>{text}</p>
-                                )
-                            })}
+                            <p>{content}</p>
                         </div>
                     </div>
                 </div>
