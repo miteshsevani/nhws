@@ -1,5 +1,4 @@
 import React from "react";
-
 import Awareness from "./Awareness.js";
 import Banner from "./Banner.js";
 import Contact from "./Contact.js";
@@ -21,10 +20,10 @@ export default class Main extends React.Component {
 		const content = require("../content/content.json");
 		
 		return(
-			<div>
-				<Contact content={content.contact} />
+			<div>				
 				<Header />
-				<Nav navigation={navigation} />
+				<Nav navigation={navigation} content={content.contact} />
+				<Contact content={content.contact} display="desktop"/>
 				<Banner content={content.banner} />
 				<Grooming content={content} />
 				<Daterape content={content.date_rape_drugs} />

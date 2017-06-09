@@ -11,7 +11,7 @@ body {
     line-height: 1.5em;
 
     h4 {
-      color: crimson;
+      color: $primary-red;
     }
     
     .container {
@@ -26,6 +26,10 @@ body {
     }
 
     .navbar {
+      border-radius: 0px;
+      &.navbar-inverse {
+        border:0px;
+      }
       .navbar-collapse {
         padding: 0 25px;
         @media #{$small} {
@@ -40,33 +44,6 @@ body {
       max-width: 100%;
     }
 
-    header {
-      background:url('../images/banner-bg.png');      
-      @include background(no-repeat, initial, cover);
-      padding: 20px 0px; 
-
-      .header-title {
-        padding-left:0px;
-        display: table;
-        height: 60px;
-        @media #{$small} {
-          height: 80px;
-        }
-        @media #{$large} {
-          height: 115px;
-        }
-        h1 {
-          color: $primary-orange;
-          font-size: $font-size + 2;
-          vertical-align: middle;
-          display: table-cell;
-          @media #{$small} {
-            font-size: 35px;
-            margin: 15px 0px;
-          }
-        }
-      }
-    }
 
     header, section, footer {
       .row {        
@@ -83,7 +60,7 @@ body {
         padding:0px;
       }    
     }
-    
+
     .box-content {
       background:#fff;
       padding:15px;
@@ -100,7 +77,63 @@ body {
         }
       }
     }
-    
+
+    header {
+      background:url('../images/banner-bg.png');      
+      @include background(no-repeat, initial, cover);
+      padding: 20px 0px; 
+
+      .container {
+        .logo {
+          padding-left:0px;
+        }
+      }
+      .header-title {
+        padding-left:0px;
+        display: table;
+        height: 60px;
+        
+        h1 {
+          color: $primary-orange;
+          font-size: $font-size + 2;
+          vertical-align: middle;
+          display: table-cell;
+          @media #{$small} {
+            font-size: 35px;
+            margin: 15px 0px;
+          }
+        }
+      }
+    }
+            
+    #contact {
+      background: $section-background-dark;
+      padding:10px;
+      color: $primary-color;
+
+      @media #{$medium} {
+        position: absolute;
+        right: 5%;
+      }
+
+      h3,h5 {
+        margin:0px;
+      }
+      
+      h3 {
+        font-weight: 100;
+        font-size: 25px;
+        @media #{$small} {
+          font-size: 25px;  
+        }
+      }
+
+      h5 {
+        margin-bottom: 5px;
+        color: $primary-red;
+      }
+    }
+
     .banner {
       background: #000 url('../images/know-the-signs.png');      
       background-attachment: fixed;
@@ -132,19 +165,6 @@ body {
           }  
         }
       }
-    }
-
-    #contact {
-      text-align: right;
-      padding:10px 0px;
-      h3,h5 {
-        margin:0px;
-      }
-
-      h5 {
-        margin-bottom: 5px;
-      }
-
     }
 
     #grooming {

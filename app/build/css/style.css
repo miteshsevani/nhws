@@ -18,8 +18,11 @@ body {
       margin-right: 0px;
       margin-left: 0px; }
   body .navbar {
+    border-radius: 0px;
     margin-bottom: 0px;
     background: #191919; }
+    body .navbar.navbar-inverse {
+      border: 0px; }
     body .navbar .navbar-collapse {
       padding: 0 25px; }
       @media only screen and (min-width: 576px) {
@@ -27,31 +30,6 @@ body {
           padding: 0px; } }
   body img {
     max-width: 100%; }
-  body header {
-    background: url("../images/banner-bg.png");
-    background-repeat: no-repeat;
-    background-position: initial;
-    background-size: cover;
-    padding: 20px 0px; }
-    body header .header-title {
-      padding-left: 0px;
-      display: table;
-      height: 60px; }
-      @media only screen and (min-width: 576px) {
-        body header .header-title {
-          height: 80px; } }
-      @media only screen and (min-width: 992px) {
-        body header .header-title {
-          height: 115px; } }
-      body header .header-title h1 {
-        color: #f57c00;
-        font-size: 18px;
-        vertical-align: middle;
-        display: table-cell; }
-        @media only screen and (min-width: 576px) {
-          body header .header-title h1 {
-            font-size: 35px;
-            margin: 15px 0px; } }
   body header .row, body section .row, body footer .row {
     margin: 0 auto; }
   body section, body footer {
@@ -71,6 +49,46 @@ body {
       padding: 5px 0px; }
       body .box-content li:last-child {
         border-bottom: none; }
+  body header {
+    background: url("../images/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    padding: 20px 0px; }
+    body header .container .logo {
+      padding-left: 0px; }
+    body header .header-title {
+      padding-left: 0px;
+      display: table;
+      height: 60px; }
+      body header .header-title h1 {
+        color: #f57c00;
+        font-size: 18px;
+        vertical-align: middle;
+        display: table-cell; }
+        @media only screen and (min-width: 576px) {
+          body header .header-title h1 {
+            font-size: 35px;
+            margin: 15px 0px; } }
+  body #contact {
+    background: #191919;
+    padding: 10px;
+    color: #fff; }
+    @media only screen and (min-width: 768px) {
+      body #contact {
+        position: absolute;
+        right: 5%; } }
+    body #contact h3, body #contact h5 {
+      margin: 0px; }
+    body #contact h3 {
+      font-weight: 100;
+      font-size: 25px; }
+      @media only screen and (min-width: 576px) {
+        body #contact h3 {
+          font-size: 25px; } }
+    body #contact h5 {
+      margin-bottom: 5px;
+      color: crimson; }
   body .banner {
     background: #000 url("../images/know-the-signs.png");
     background-attachment: fixed;
@@ -99,13 +117,6 @@ body {
             line-height: 56px;
             letter-spacing: 1px;
             font-size: 30px; } }
-  body #contact {
-    text-align: right;
-    padding: 10px 0px; }
-    body #contact h3, body #contact h5 {
-      margin: 0px; }
-    body #contact h5 {
-      margin-bottom: 5px; }
   body #grooming {
     background: #eff0f1; }
     @media only screen and (min-width: 992px) {

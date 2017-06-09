@@ -1,5 +1,5 @@
 import React from "react";
-
+import Contact from "./Contact.js";
 export default class Nav extends React.Component {
 	
 	getNav(nav) {		
@@ -15,19 +15,22 @@ export default class Nav extends React.Component {
 	}
 
 	render() {
-
 		const {navigation} = this.props;
+		const {content} = this.props;
 
 		return(
-			<nav className="navbar navbar-inverse navbar-static-top">
+			<nav className="navbar navbar-inverse">
 				<div className="container">
-					<div className="navbar-header">
+					<div className="navbar-header">						
 						<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span className="sr-only">Toggle navigation</span>
 							<span className="icon-bar"></span>
 							<span className="icon-bar"></span>
 							<span className="icon-bar"></span>
-						</button>          
+						</button>
+						<div className="navbar-brand">
+							<Contact content={content} display="mobile" />
+						</div>
 					</div>
 					<div id="navbar" className="navbar-collapse collapse">		
 						{this.getNav(navigation)}
