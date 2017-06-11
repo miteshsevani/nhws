@@ -25,12 +25,12 @@ export default class Main extends React.Component {
 				<Nav navigation={navigation} content={content.contact} />
 				<Contact content={content.contact} display="desktop"/>
 				<Banner content={content.banner} />
-				<Grooming content={content} />
+				<Grooming content={content.grooming} />
 				<Daterape content={content.date_rape_drugs} />
-				<Prevention content={content.prevention} />
+				<Prevention content={content} />
 				<StayingSafe content={content.staying_safe} />
 				<PastEvents />
-				<Documentaries />
+				<Documentaries content={content.documentaries} />
 				<Footer />
 			</div>
 		);

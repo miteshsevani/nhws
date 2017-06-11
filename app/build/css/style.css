@@ -119,9 +119,9 @@ body {
             font-size: 30px; } }
   body #grooming {
     background: #eff0f1; }
-    @media only screen and (min-width: 992px) {
-      body #grooming .telling-signs {
-        margin: -200px 0px 40px 0px; } }
+    body #grooming .image {
+      display: block;
+      margin-top: 50px; }
   body #date-rape-drugs {
     background-color: #000;
     color: #b3b2b2;
@@ -130,7 +130,7 @@ body {
       body #date-rape-drugs {
         padding: 0px; }
         body #date-rape-drugs .dr-bg .image {
-          height: 348px;
+          height: 400px;
           display: table-cell;
           vertical-align: middle; }
           body #date-rape-drugs .dr-bg .image img {
@@ -145,15 +145,35 @@ body {
       body #date-rape-drugs .dr-text h3 {
         color: #0099cc; }
   body #prevention {
-    background: #eff0f1; }
-  body #staying-safe ul li:before {
-    content: " ";
-    width: 20px;
-    height: 20px;
-    background: #b3b2b2; }
+    background: #eff0f1;
+    padding-top: 80px; }
+    @media only screen and (min-width: 992px) {
+      body #prevention .telling-signs {
+        margin: -160px 0px 40px 0px; } }
+  body #staying-safe {
+    font-size: 17px;
+    text-align: center; }
+    body #staying-safe .col-sm-6 {
+      text-align: left;
+      height: 60px;
+      margin-top: 50px; }
+    body #staying-safe ul li {
+      background: url("../images/icons/icon-circle.svg") no-repeat;
+      background-size: 50px;
+      height: 50px;
+      margin: 25px 0px;
+      padding-left: 60px;
+      display: table-cell;
+      vertical-align: middle; }
   body #documentaries {
     background: #191919;
     color: #b3b2b2; }
+    body #documentaries h2 {
+      text-align: center;
+      margin-bottom: 50px;
+      color: #0099cc; }
+    body #documentaries h3 {
+      margin-bottom: 25px; }
   body footer {
     background: #191919;
     color: #b3b2b2;

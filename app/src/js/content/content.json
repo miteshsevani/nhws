@@ -21,10 +21,10 @@
         "University is full of new experiences, new people and new ideas. Whilst you should be open to these, it is important to be aware that there are groups with ulterior motives. Do not get caught out. Have a good group of friends. Look out for your friends if they start to become withdrawn, have any other unusual changes in behaviour or show any of the signs of grooming mentioned, make an effort to find out what is going on with them. Stay in control and never let indecent photos be taken."
     ],
     "staying_safe" : [
-        { "item" : "Alcohol is the number one date rape drug, avoid it if you can" },
-        { "item" : "Know your limits" },
+        { "item" : "Alcohol is the number one date rape drug, avoid it if you can" },        
         { "item" : "Never leave your drink unattended" },
         { "item" : "On a night out stay with friends and if you leave early ensure they know where you are" },
+        { "item" : "Know your limits" },
         { "item" : "Trust your instincts" },
         { "item" : "Ensure you share taxis with friends late at night and always take a licensed taxi" }
     ],
@@ -36,5 +36,12 @@
         { "item" : "Sudden involvement in criminal behaviour or increased offending" },
         { "item" : "Sexual health problems" },
         { "item" : "Change in physical appearance" }
+    ],
+    "documentaries" : [
+        {
+            "title" : "BBC Inside Out",
+            "subtitle" : "The hidden scandal of sexual grooming",
+            "description" : "An Inside Out London special, uncovers the hidden scandal of sexual grooming of young Sikh girls by Muslim men. Breaking their silence, they speak to Chris Rogers about their experiences at the hands of these predatory men and why justice is being denied to them by their own community and the police."
+        }
     ]
 }

@@ -168,11 +168,10 @@ body {
     }
 
     #grooming {
-      background:$section-background;
-      .telling-signs {        
-        @media #{$large} {          
-          margin: -200px 0px 40px 0px;
-        }
+      background:$section-background;      
+      .image {
+        display: block;
+        margin-top: 50px;
       }
     }
 
@@ -186,7 +185,7 @@ body {
         padding: 0px;
         .dr-bg {        
           .image {
-            height: 348px;
+            height: 400px;
             display: table-cell;
             vertical-align: middle;
             img {
@@ -214,25 +213,50 @@ body {
 
     #prevention {
       background:$section-background;
+      padding-top: 80px;
+      .telling-signs {        
+        @media #{$large} {          
+          margin: -160px 0px 40px 0px;
+        }
+      }
     }
     
     #staying-safe {
-      
+      font-size: $font-size + 1;
+      text-align: center;
+      .col-sm-6 {
+        text-align: left;
+        height: 60px;
+        margin-top: 50px;
+      }
+
       ul {
+        
         li {
-          &:before {
-            content: " ";
-            width: 20px;
-            height: 20px;
-            background: $secondary-color;
-          }
+          background: url('../images/icons/icon-circle.svg') no-repeat;
+          background-size: 50px;
+          
+          height: 50px;
+          margin: 25px 0px;
+          padding-left: 60px;
+          display: table-cell;
+          vertical-align: middle;
         }
-      }      
+      }
     }
 
     #documentaries {
       background: $section-background-dark;
       color: $secondary-color;
+      h2 {
+        text-align: center;
+        margin-bottom: 50px;
+        color: $primary-blue;
+      }
+
+      h3 {
+        margin-bottom: 25px;
+      }
     }
 
     footer {

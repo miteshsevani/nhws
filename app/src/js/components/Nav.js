@@ -29,7 +29,7 @@ export default class Nav extends React.Component {
 							<span className="icon-bar"></span>
 						</button>
 						<div className="navbar-brand">
-							<Contact content={content} display="mobile" />
+							
 						</div>
 					</div>
 					<div id="navbar" className="navbar-collapse collapse">		
