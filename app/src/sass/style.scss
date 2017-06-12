@@ -68,7 +68,10 @@ body {
     .box-content {
       background:#fff;
       padding:15px;
-      border-bottom: 4px solid $primary-orange;
+      @media #{$small}{
+        border-bottom: 4px solid $primary-orange;  
+      }
+      
       
       @include boxShadow(6px,0.3);
 
@@ -172,9 +175,9 @@ body {
           display: inline;
           box-shadow: 10px 0 0 $section-background-dark, -10px 0 0 $section-background-dark;
           box-decoration-break: clone;
-          padding-bottom: 7px;
+          padding: 5px 0px 7px 0px;
           font-size: 22px;
-          line-height: 40px;
+          line-height: 45px;
 
           @media #{$small} {
             padding: 7px 0px;
@@ -232,8 +235,9 @@ body {
 
     #prevention {
       background:antiquewhite;
-      padding-top: 80px;
-      .telling-signs {        
+      padding-top: 80px;      
+      .telling-signs {
+        margin-top: 30px;
         @media #{$large} {          
           margin: -160px 0px 40px 0px;
         }

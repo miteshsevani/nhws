@@ -42,10 +42,12 @@ body {
   body .box-content {
     background: #fff;
     padding: 15px;
-    border-bottom: 4px solid #f57c00;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3); }
+    @media only screen and (min-width: 576px) {
+      body .box-content {
+        border-bottom: 4px solid #f57c00; } }
     body .box-content li {
       border-bottom: 1px solid #d4d7d9;
       padding: 5px 0px; }
@@ -121,9 +123,9 @@ body {
         display: inline;
         box-shadow: 10px 0 0 #191919, -10px 0 0 #191919;
         box-decoration-break: clone;
-        padding-bottom: 7px;
+        padding: 5px 0px 7px 0px;
         font-size: 22px;
-        line-height: 40px; }
+        line-height: 45px; }
         @media only screen and (min-width: 576px) {
           body .banner .banner-content h2 {
             padding: 7px 0px;
@@ -160,9 +162,11 @@ body {
   body #prevention {
     background: antiquewhite;
     padding-top: 80px; }
-    @media only screen and (min-width: 992px) {
-      body #prevention .telling-signs {
-        margin: -160px 0px 40px 0px; } }
+    body #prevention .telling-signs {
+      margin-top: 30px; }
+      @media only screen and (min-width: 992px) {
+        body #prevention .telling-signs {
+          margin: -160px 0px 40px 0px; } }
   body #staying-safe {
     font-size: 17px;
     text-align: center; }
