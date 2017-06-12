@@ -12,6 +12,7 @@ export default class Contact extends React.Component {
             <div id="contact" className={classnames(this.props.styleName)}>
                 <h5><Image image="images/icons/icon-phone.svg" />{content[0].text}</h5>
                 <h3>{content[0].phone}</h3>
+                <a className={classnames("hidden-xs")} href={"mailto:"+content[0].email}>{content[0].email}</a>
             </div>
             </Sticky>
         );

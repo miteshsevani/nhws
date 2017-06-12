@@ -9,6 +9,20 @@ body {
   line-height: 1.5em; }
   body h4 {
     color: crimson; }
+  body img {
+    max-width: 100%; }
+  body a {
+    color: #0099cc; }
+    body a:hover {
+      color: #fff;
+      text-decoration: underline; }
+  body header .row, body section .row, body footer .row {
+    margin: 0 auto; }
+  body section, body footer {
+    padding: 80px 0px; }
+    body section ul, body footer ul {
+      list-style: none;
+      padding: 0px; }
   body .sticky {
     z-index: 100; }
     body .sticky #contact.desktop {
@@ -34,15 +48,6 @@ body {
           padding: 0px; } }
     body .navbar .navbar-brand {
       padding: 12px 10px; }
-  body img {
-    max-width: 100%; }
-  body header .row, body section .row, body footer .row {
-    margin: 0 auto; }
-  body section, body footer {
-    padding: 80px 0px; }
-    body section ul, body footer ul {
-      list-style: none;
-      padding: 0px; }
   body .box-content {
     background: #fff;
     padding: 15px;
@@ -90,7 +95,7 @@ body {
         display: block;
         position: absolute;
         right: 5%;
-        margin-top: -67px;
+        margin-top: -74px;
         padding: 10px; } }
     body #contact h3, body #contact h5 {
       margin: 0px 10px 0px 0px;
@@ -104,9 +109,9 @@ body {
       font-size: 16px; }
       @media only screen and (min-width: 768px) {
         body #contact h3 {
-          font-size: 25px; } }
+          font-size: 25px;
+          margin-bottom: 2px; } }
     body #contact h5 {
-      margin-bottom: 5px;
       color: crimson; }
   body .banner {
     background: #000 url("../images/know-the-signs.png");
@@ -198,5 +203,9 @@ body {
       margin-bottom: 25px; }
   body footer {
     background: #191919;
-    color: #b3b2b2;
-    text-align: center; }
+    font-size: 13px;
+    color: #b3b2b2; }
+    body footer h5 {
+      font-weight: 700; }
+    body footer ul li:first-child {
+      color: crimson; }

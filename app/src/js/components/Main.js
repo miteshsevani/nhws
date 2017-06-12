@@ -21,9 +21,9 @@ export default class Main extends React.Component {
 		
 		return(
 			<div>				
-				<Header />
+				<Header content={content.title} />
 				<Nav navigation={navigation} content={content.contact} />
-				<Contact content={content.contact} styleName="desktop"/>
+				<Contact content={content.contact} styleName="desktop" />
 				<Banner content={content.banner} />
 				<Grooming content={content.grooming} />
 				<Daterape content={content.date_rape_drugs} />
@@ -31,7 +31,7 @@ export default class Main extends React.Component {
 				<StayingSafe content={content.staying_safe} />
 				<PastEvents />
 				<Documentaries content={content.documentaries} />
-				<Footer />
+				<Footer content={content} />
 			</div>
 		);
 	}

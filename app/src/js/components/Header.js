@@ -12,7 +12,7 @@ export default class Header extends React.Component {
 							<Image image="images/nhws-logo.png" />
 						</div>						
 						<div className="col-xs-9 col-sm-8 header-title">
-							<h1>National Hindu Welfare Support</h1>
+							<h1>{content}</h1>
 						</div>
 					</div>
 				</div>

@@ -1,4 +1,7 @@
-{			
+{
+    "title": [
+        "National Hindu Welfare Support"
+    ],
     "contact": [
         { 
             "text" : "Confidential helpline",
@@ -42,6 +45,28 @@
             "title" : "BBC Inside Out",
             "subtitle" : "The hidden scandal of sexual grooming",
             "description" : "An Inside Out London special, uncovers the hidden scandal of sexual grooming of young Sikh girls by Muslim men. Breaking their silence, they speak to Chris Rogers about their experiences at the hands of these predatory men and why justice is being denied to them by their own community and the police."
+        }
+    ],
+    "useful_links" : [
+        { 
+            "item" : "Parents Protect",
+            "link" : "https://www.parentsprotect.co.uk"
+        },
+        { 
+            "item" : "Childline",
+            "link" : "http://www.childline.org.uk"
+        },
+        { 
+            "item" : "My dangerous loverboy",
+            "link" : "http://www.mydangerousloverboy.com"
+        },
+        { 
+            "item" : "NSPCC",
+            "link" : "https://www.nspcc.org.uk/"
+        },
+        { 
+            "item" : "PACE",
+            "link" : "http://paceuk.info"
         }
     ]
 }
