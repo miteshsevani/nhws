@@ -28,6 +28,8 @@ body {
       @media only screen and (min-width: 576px) {
         body .navbar .navbar-collapse {
           padding: 0px; } }
+    body .navbar .navbar-brand {
+      padding: 12px 10px; }
   body img {
     max-width: 100%; }
   body header .row, body section .row, body footer .row {
