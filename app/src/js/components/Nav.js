@@ -1,5 +1,6 @@
 import React from "react";
 import classnames from 'classnames';
+import Sticky from 'react-sticky-el';
 import Contact from "./Contact.js";
 export default class Nav extends React.Component {
 	
@@ -20,6 +21,7 @@ export default class Nav extends React.Component {
 		const {content} = this.props;
 
 		return(
+			<Sticky>
 			<nav className="navbar navbar-inverse">
 				<div className="container">
 					<div className="navbar-header">						
@@ -38,6 +40,7 @@ export default class Nav extends React.Component {
 					</div>
 				</div>
 			</nav>
+			</Sticky>
 		);
 	}
 }

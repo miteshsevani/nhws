@@ -14,6 +14,15 @@ body {
       color: $primary-red;
     }
     
+    .sticky {
+      z-index: 100;
+      #contact {
+        &.desktop {
+          margin-top: 0px;
+        }
+      }
+    }
+
     .container {
       padding: 0px;      
       @media #{$small} {
@@ -56,8 +65,7 @@ body {
     }
 
     section, footer {
-      padding:25px 0px 45px 0px;
-            
+      padding:80px 0px;
 
       ul {
         list-style: none;
@@ -92,7 +100,7 @@ body {
 
       .container {
         .logo {
-          padding-left:0px;
+          padding-left:10px;
         }
       }
       .header-title {
@@ -113,7 +121,7 @@ body {
       }
     }
       
-    #contact {      
+    #contact {
       &.desktop {
         display:none;
       }
@@ -166,7 +174,6 @@ body {
       
       .banner-content {        
         text-align: left;
-        margin-top: 40px;
 
         h2 {          
           color: $section-background;
@@ -179,7 +186,7 @@ body {
           font-size: 22px;
           line-height: 45px;
 
-          @media #{$small} {
+          @media #{$medium} {
             padding: 7px 0px;
             line-height: 56px;
             letter-spacing: 1px;  
@@ -193,7 +200,8 @@ body {
       background:$section-background;  
       .image {
         display: block;
-        margin-top: 50px;
+        margin-top: 80px;
+        text-align: center;
       }
     }
 
@@ -235,11 +243,10 @@ body {
 
     #prevention {
       background:antiquewhite;
-      padding-top: 80px;      
       .telling-signs {
         margin-top: 30px;
         @media #{$large} {          
-          margin: -160px 0px 40px 0px;
+          margin-top: -160px;
         }
       }
     }
@@ -257,8 +264,7 @@ body {
         
         li {
           background: url('../images/icons/icon-circle.svg') no-repeat;
-          background-size: 50px;
-          
+          background-size: 50px;          
           height: 50px;
           margin: 25px 0px;
           padding-left: 60px;

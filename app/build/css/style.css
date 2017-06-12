@@ -9,6 +9,10 @@ body {
   line-height: 1.5em; }
   body h4 {
     color: crimson; }
+  body .sticky {
+    z-index: 100; }
+    body .sticky #contact.desktop {
+      margin-top: 0px; }
   body .container {
     padding: 0px; }
     @media only screen and (min-width: 576px) {
@@ -35,7 +39,7 @@ body {
   body header .row, body section .row, body footer .row {
     margin: 0 auto; }
   body section, body footer {
-    padding: 25px 0px 45px 0px; }
+    padding: 80px 0px; }
     body section ul, body footer ul {
       list-style: none;
       padding: 0px; }
@@ -60,7 +64,7 @@ body {
     background-size: cover;
     padding: 20px 0px; }
     body header .container .logo {
-      padding-left: 0px; }
+      padding-left: 10px; }
     body header .header-title {
       padding-left: 0px;
       display: table;
@@ -114,8 +118,7 @@ body {
     max-width: none;
     text-align: center; }
     body .banner .banner-content {
-      text-align: left;
-      margin-top: 40px; }
+      text-align: left; }
       body .banner .banner-content h2 {
         color: #eff0f1;
         background-color: #191919;
@@ -126,7 +129,7 @@ body {
         padding: 5px 0px 7px 0px;
         font-size: 22px;
         line-height: 45px; }
-        @media only screen and (min-width: 576px) {
+        @media only screen and (min-width: 768px) {
           body .banner .banner-content h2 {
             padding: 7px 0px;
             line-height: 56px;
@@ -136,7 +139,8 @@ body {
     background: #eff0f1; }
     body #grooming .image {
       display: block;
-      margin-top: 50px; }
+      margin-top: 80px;
+      text-align: center; }
   body #date-rape-drugs {
     background-color: #000;
     color: #b3b2b2;
@@ -160,13 +164,12 @@ body {
       body #date-rape-drugs .dr-text h3 {
         color: #0099cc; }
   body #prevention {
-    background: antiquewhite;
-    padding-top: 80px; }
+    background: antiquewhite; }
     body #prevention .telling-signs {
       margin-top: 30px; }
       @media only screen and (min-width: 992px) {
         body #prevention .telling-signs {
-          margin: -160px 0px 40px 0px; } }
+          margin-top: -160px; } }
   body #staying-safe {
     font-size: 17px;
     text-align: center; }
