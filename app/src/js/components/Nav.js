@@ -1,4 +1,5 @@
 import React from "react";
+import classnames from 'classnames';
 import Contact from "./Contact.js";
 export default class Nav extends React.Component {
 	
@@ -29,7 +30,7 @@ export default class Nav extends React.Component {
 							<span className="icon-bar"></span>
 						</button>
 						<div className="navbar-brand">
-							
+							<Contact content={content} styleName="mobile" />
 						</div>
 					</div>
 					<div id="navbar" className="navbar-collapse collapse">		

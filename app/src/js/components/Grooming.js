@@ -18,7 +18,7 @@ export default class Grooming extends React.Component {
                             })}
                         </div>
                         <div className="col-md-5">                            
-                            <Image image="../images/grooming-stages.png" />
+                            <Image image="images/grooming-stages.png" />
                         </div>
                     </div>
                 </div>

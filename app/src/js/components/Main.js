@@ -23,7 +23,7 @@ export default class Main extends React.Component {
 			<div>				
 				<Header />
 				<Nav navigation={navigation} content={content.contact} />
-				<Contact content={content.contact} display="desktop"/>
+				<Contact content={content.contact} styleName="desktop"/>
 				<Banner content={content.banner} />
 				<Grooming content={content.grooming} />
 				<Daterape content={content.date_rape_drugs} />

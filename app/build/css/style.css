@@ -63,7 +63,7 @@ body {
       height: 60px; }
       body header .header-title h1 {
         color: #f57c00;
-        font-size: 18px;
+        font-size: 17px;
         vertical-align: middle;
         display: table-cell; }
         @media only screen and (min-width: 576px) {
@@ -72,18 +72,29 @@ body {
             margin: 15px 0px; } }
   body #contact {
     background: #191919;
-    padding: 10px;
     color: #fff; }
+    body #contact.desktop {
+      display: none; }
     @media only screen and (min-width: 768px) {
-      body #contact {
+      body #contact.mobile {
+        display: none; }
+      body #contact.desktop {
+        display: block;
         position: absolute;
-        right: 5%; } }
+        right: 5%;
+        margin-top: -67px;
+        padding: 10px; } }
     body #contact h3, body #contact h5 {
-      margin: 0px; }
+      margin: 0px 10px 0px 0px;
+      display: inline;
+      font-size: 14px; }
+      @media only screen and (min-width: 768px) {
+        body #contact h3, body #contact h5 {
+          display: block; } }
     body #contact h3 {
       font-weight: 100;
-      font-size: 25px; }
-      @media only screen and (min-width: 576px) {
+      font-size: 16px; }
+      @media only screen and (min-width: 768px) {
         body #contact h3 {
           font-size: 25px; } }
     body #contact h5 {
@@ -145,7 +156,7 @@ body {
       body #date-rape-drugs .dr-text h3 {
         color: #0099cc; }
   body #prevention {
-    background: #eff0f1;
+    background: antiquewhite;
     padding-top: 80px; }
     @media only screen and (min-width: 992px) {
       body #prevention .telling-signs {
@@ -165,6 +176,8 @@ body {
       padding-left: 60px;
       display: table-cell;
       vertical-align: middle; }
+  body #past-events {
+    background: #eff0f1; }
   body #documentaries {
     background: #191919;
     color: #b3b2b2; }
