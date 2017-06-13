@@ -25,19 +25,19 @@ body {
         text-decoration: underline;
       }
     }
+
+    ul {
+      list-style: none;
+      padding:0px;
+    }
     header, section, footer {
       .row {        
         margin: 0 auto;
       }
     }
 
-    section, footer {
+    section {
       padding:80px 0px;
-
-      ul {
-        list-style: none;
-        padding:0px;
-      }    
     }
 
     .sticky {
@@ -182,6 +182,10 @@ body {
       h5 {
         color: $primary-red;
       }
+
+      .image {
+        display: inline;
+      }
     }
 
     .banner {
@@ -318,18 +322,39 @@ body {
       }
     }
 
+
     footer {
       background: $section-background-dark;
       font-size: $font-size - 3;
       color: $secondary-color;
+      padding: 20px 0px;
 
-      h5 {
-        font-weight: 700;
-      }
+      .container{
+        border-top: 4px solid $primary-orange; 
+        padding: 30px 0px;
 
-      ul {
-        li:first-child {
-          color: $primary-red;
+        h5 {
+          font-weight: 700;
+        }
+
+        ul {
+          .image {
+            display: inline-block;
+          }
+          &.contact {
+            li:first-child {
+              color:$primary-red;
+            }
+            li:nth-child(2) {
+              margin-left: 30px;
+              margin-top: -6px;
+            }
+            li:nth-child(3) {
+              a {
+                margin-left: 2px;
+              }
+            }
+          }
         }
       }
     }

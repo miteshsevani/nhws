@@ -16,13 +16,13 @@ body {
     body a:hover {
       color: #fff;
       text-decoration: underline; }
+  body ul {
+    list-style: none;
+    padding: 0px; }
   body header .row, body section .row, body footer .row {
     margin: 0 auto; }
-  body section, body footer {
+  body section {
     padding: 80px 0px; }
-    body section ul, body footer ul {
-      list-style: none;
-      padding: 0px; }
   body .sticky {
     z-index: 100; }
     body .sticky #contact.desktop {
@@ -124,6 +124,8 @@ body {
           margin-bottom: 2px; } }
     body #contact h5 {
       color: crimson; }
+    body #contact .image {
+      display: inline; }
   body .banner {
     background: #000 url("../images/know-the-signs.png");
     background-attachment: fixed;
@@ -223,8 +225,19 @@ body {
   body footer {
     background: #191919;
     font-size: 13px;
-    color: #b3b2b2; }
-    body footer h5 {
-      font-weight: 700; }
-    body footer ul li:first-child {
-      color: crimson; }
+    color: #b3b2b2;
+    padding: 20px 0px; }
+    body footer .container {
+      border-top: 4px solid #f57c00;
+      padding: 30px 0px; }
+      body footer .container h5 {
+        font-weight: 700; }
+      body footer .container ul .image {
+        display: inline-block; }
+      body footer .container ul.contact li:first-child {
+        color: crimson; }
+      body footer .container ul.contact li:nth-child(2) {
+        margin-left: 30px;
+        margin-top: -6px; }
+      body footer .container ul.contact li:nth-child(3) a {
+        margin-left: 2px; }
