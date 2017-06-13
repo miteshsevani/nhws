@@ -106,22 +106,36 @@ body {
 
       .container {
         .logo {
-          padding-left:10px;
-        }
-      }
-      .header-title {
-        padding-left:0px;
-        display: table;
-        height: 60px;
-        
-        h1 {
-          color: $primary-orange;
-          font-size: $font-size + 1;
-          vertical-align: middle;
-          display: table-cell;
           @media #{$small} {
-            font-size: 35px;
-            margin: 15px 0px;
+            padding-left:0px;
+            padding-right:0px;
+          }
+        }
+      
+        .header-title {
+          padding-left:0px;
+          @media #{$small} {
+            padding-left:10px;
+          }
+
+          display: table;
+          height: 50px;
+          
+          @media #{$x-large} {
+            height: 85px;
+          }
+          h1 {
+            color: $primary-orange;
+            font-size: $font-size + 1;
+            vertical-align: middle;
+            display: table-cell;
+            @media #{$small} {
+              font-size: 28px;
+              margin: 15px 0px;
+            }
+            @media #{$large} {
+              font-size: 35px;
+            }
           }
         }
       }
@@ -176,11 +190,14 @@ body {
       @include background(no-repeat, 50%, cover);
       height: 350px;      
       max-width: none;
-      text-align: center;
       
       .banner-content {        
         text-align: left;
-
+        bottom: -82px;
+        position: relative;
+        @media #{$small} {
+          bottom: 0px;
+        }
         h2 {          
           color: $section-background;
           background-color: $section-background-dark;
@@ -189,9 +206,12 @@ body {
           box-shadow: 10px 0 0 $section-background-dark, -10px 0 0 $section-background-dark;
           box-decoration-break: clone;
           padding: 5px 0px 7px 0px;
-          font-size: 22px;
-          line-height: 45px;
-
+          font-size: 20px;
+          line-height: 36px;
+          @media #{$small} {
+            font-size: 22px;
+            line-height: 45px;
+          }
           @media #{$medium} {
             padding: 7px 0px;
             line-height: 56px;

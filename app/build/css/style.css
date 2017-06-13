@@ -68,21 +68,32 @@ body {
     background-position: initial;
     background-size: cover;
     padding: 20px 0px; }
-    body header .container .logo {
-      padding-left: 10px; }
-    body header .header-title {
+    @media only screen and (min-width: 576px) {
+      body header .container .logo {
+        padding-left: 0px;
+        padding-right: 0px; } }
+    body header .container .header-title {
       padding-left: 0px;
       display: table;
-      height: 60px; }
-      body header .header-title h1 {
+      height: 50px; }
+      @media only screen and (min-width: 576px) {
+        body header .container .header-title {
+          padding-left: 10px; } }
+      @media only screen and (min-width: 1200px) {
+        body header .container .header-title {
+          height: 85px; } }
+      body header .container .header-title h1 {
         color: #f57c00;
         font-size: 17px;
         vertical-align: middle;
         display: table-cell; }
         @media only screen and (min-width: 576px) {
-          body header .header-title h1 {
-            font-size: 35px;
+          body header .container .header-title h1 {
+            font-size: 28px;
             margin: 15px 0px; } }
+        @media only screen and (min-width: 992px) {
+          body header .container .header-title h1 {
+            font-size: 35px; } }
   body #contact {
     background: #191919;
     color: #fff; }
@@ -120,10 +131,14 @@ body {
     background-position: 50%;
     background-size: cover;
     height: 350px;
-    max-width: none;
-    text-align: center; }
+    max-width: none; }
     body .banner .banner-content {
-      text-align: left; }
+      text-align: left;
+      bottom: -82px;
+      position: relative; }
+      @media only screen and (min-width: 576px) {
+        body .banner .banner-content {
+          bottom: 0px; } }
       body .banner .banner-content h2 {
         color: #eff0f1;
         background-color: #191919;
@@ -132,8 +147,12 @@ body {
         box-shadow: 10px 0 0 #191919, -10px 0 0 #191919;
         box-decoration-break: clone;
         padding: 5px 0px 7px 0px;
-        font-size: 22px;
-        line-height: 45px; }
+        font-size: 20px;
+        line-height: 36px; }
+        @media only screen and (min-width: 576px) {
+          body .banner .banner-content h2 {
+            font-size: 22px;
+            line-height: 45px; } }
         @media only screen and (min-width: 768px) {
           body .banner .banner-content h2 {
             padding: 7px 0px;
