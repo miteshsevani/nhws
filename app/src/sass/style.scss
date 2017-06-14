@@ -82,7 +82,7 @@ body {
     .box-content {
       background:#fff;
       padding:15px;
-      @media #{$small}{
+      @media #{$medium}{
         border-bottom: 4px solid $primary-orange;  
       }
       
@@ -90,11 +90,14 @@ body {
       @include boxShadow(6px,0.3);
 
       li {
-        border-bottom: 1px solid darken($section-background,10%);
+        @media #{$medium}{
+          border-bottom: 1px solid darken($section-background,10%);
+        }
+
         padding: 5px 0px;
 
         &:last-child {
-          border-bottom: none;;
+          border-bottom: none;
         }
       }
     }

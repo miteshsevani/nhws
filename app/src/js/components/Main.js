@@ -28,8 +28,7 @@ export default class Main extends React.Component {
 				<Grooming content={content.grooming} />
 				<Daterape content={content.date_rape_drugs} />
 				<Prevention content={content} />
-				<StayingSafe content={content.staying_safe} />
-				<PastEvents />
+				<StayingSafe content={content.staying_safe} />				
 				<Documentaries content={content.documentaries} />
 				<Footer content={content} />
 			</div>

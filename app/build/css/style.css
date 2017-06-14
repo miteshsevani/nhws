@@ -54,12 +54,14 @@ body {
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3); }
-    @media only screen and (min-width: 576px) {
+    @media only screen and (min-width: 768px) {
       body .box-content {
         border-bottom: 4px solid #f57c00; } }
     body .box-content li {
-      border-bottom: 1px solid #d4d7d9;
       padding: 5px 0px; }
+      @media only screen and (min-width: 768px) {
+        body .box-content li {
+          border-bottom: 1px solid #d4d7d9; } }
       body .box-content li:last-child {
         border-bottom: none; }
   body header {

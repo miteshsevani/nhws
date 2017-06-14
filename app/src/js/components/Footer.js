@@ -28,7 +28,7 @@ export default class Footer extends React.Component {
                             <ul>
                             {content.useful_links.map((item,key) => {
                                 return(
-                                    <li key={key}><a href={item.lik}>{item.item}</a></li>
+                                    <li key={key}><a href={item.link} target="_blank">{item.item}</a></li>
                                 )
                             })}
                             </ul>
