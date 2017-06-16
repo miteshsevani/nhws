@@ -4,18 +4,27 @@ import Sticky from 'react-sticky-el';
 import Contact from "./Contact.js";
 export default class Nav extends React.Component {
 	
+	constructor() {
+		super();
+		this.state = {active: ""}
+	}
+
 	getNav(nav) {		
 		return(		
 			<ul className="nav navbar-nav">
 				{nav.navigation.map((nav,key) => {
 					return (
-						<li key={key}><a href={nav.link}>{nav.text}</a></li>
+						<li onClick={this.getActiveState.bind(this)} className={this.state.active} key={key}><a href={nav.link}>{nav.text}</a></li>
 					);
 				})}
 			</ul>
 		)
 	}
 
+	getActiveState() {
+		this.setState({active: ""})
+	}
+	
 	render() {
 		const {navigation} = this.props;
 		const {content} = this.props;

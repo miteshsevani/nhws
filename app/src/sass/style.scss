@@ -37,7 +37,7 @@ body {
     }
 
     section {
-      padding:80px 0px;
+      padding:80px 0px 100px 0px;
     }
 
     .sticky {
@@ -159,8 +159,12 @@ body {
           display:block;
           position: absolute;
           right: 5%;
-          margin-top: -74px;
+          margin-top: -80px;
           padding:10px;
+          text-align: center;
+          a {
+            font-size: 16px;
+          }
         }
       }
 
@@ -169,6 +173,8 @@ body {
         display: inline;
         font-size: 14px;
         @media #{$medium} {
+          font-size: 16px;
+          margin: 0px;
           display: block;
         }
       }
@@ -177,7 +183,7 @@ body {
         font-weight: 100;        
         font-size: 16px;  
         @media #{$medium} {
-          font-size: 25px;
+          font-size: 32px;
           margin-bottom: 2px;
         }
       }
@@ -340,16 +346,25 @@ body {
           font-weight: 700;
         }
 
+        a {
+          color: $secondary-color;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
         ul {
           .image {
             display: inline-block;
+            padding-right: 8px;
           }
           &.contact {
             li:first-child {
               color:$primary-red;
             }
             li:nth-child(2) {
-              margin-left: 30px;
+              margin-left: 38px;
               margin-top: -6px;
             }
             li:nth-child(3) {
