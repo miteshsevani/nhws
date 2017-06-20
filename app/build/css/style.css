@@ -169,7 +169,9 @@ body {
             letter-spacing: 1px;
             font-size: 30px; } }
   body #grooming {
-    background: #eff0f1; }
+    background: #eff0f1;
+    /*background-image:url("../images/grooming.jpg");    
+      @include background(no-repeat, 50%, cover);*/ }
     body #grooming .image {
       display: block;
       margin-top: 80px;

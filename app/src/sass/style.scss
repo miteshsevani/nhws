@@ -236,7 +236,10 @@ body {
     }
 
     #grooming {
-      background:$section-background;  
+      background:$section-background;
+      /*background-image:url("../images/grooming.jpg");    
+      @include background(no-repeat, 50%, cover);*/
+      
       .image {
         display: block;
         margin-top: 80px;
@@ -290,9 +293,10 @@ body {
       }
     }
     
-    #staying-safe {
+    #staying-safe {      
       font-size: $font-size + 1;
       text-align: center;
+    
       .col-sm-6 {
         text-align: left;
         height: 60px;
