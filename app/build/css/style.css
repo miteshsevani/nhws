@@ -157,7 +157,7 @@ body {
         box-shadow: 10px 0 0 #191919, -10px 0 0 #191919;
         box-decoration-break: clone;
         padding: 5px 0px 7px 0px;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 36px; }
         @media only screen and (min-width: 576px) {
           body .banner .banner-content h2 {
