@@ -1,4 +1,5 @@
 import React from "react";
+import { Grid,Row,Col } from 'react-bootstrap';
 import TellingSigns from "./TellingSigns";
 export default class Prevention extends React.Component {
     
@@ -6,17 +7,17 @@ export default class Prevention extends React.Component {
         const {content} = this.props;
         return(
             <section id="prevention">                
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12 col-md-6">
+                <Grid>
+                    <Row className="show-grid">                        
+                        <Col sm={12} md={6}>
                             <h3>Prevention</h3>
                             <p>{content.prevention}</p>
-                        </div>                    
-                        <div className="col-sm-12 col-md-5 col-md-offset-1">
+                        </Col>
+                        <Col sm={12} md={5} mdOffset={1}>
                             <TellingSigns content={content.telling_signs} />
-                        </div>
-                    </div>
-                </div>
+                        </Col>
+                    </Row>
+                </Grid>
             </section>
         )
     }

@@ -142,12 +142,13 @@ body {
     height: 350px;
     max-width: none; }
     body .banner .banner-content {
-      text-align: left;
-      bottom: -82px;
+      text-align: center;
+      bottom: -110px;
       position: relative; }
       @media only screen and (min-width: 576px) {
         body .banner .banner-content {
-          bottom: 0px; } }
+          bottom: 0px;
+          text-align: left; } }
       body .banner .banner-content h2 {
         color: #eff0f1;
         background-color: #191919;
@@ -156,7 +157,7 @@ body {
         box-shadow: 10px 0 0 #191919, -10px 0 0 #191919;
         box-decoration-break: clone;
         padding: 5px 0px 7px 0px;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 36px; }
         @media only screen and (min-width: 576px) {
           body .banner .banner-content h2 {

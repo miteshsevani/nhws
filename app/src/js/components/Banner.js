@@ -1,19 +1,20 @@
 import React from "react";
+import { Grid,Row,Col } from 'react-bootstrap';
 
 export default class Banner extends React.Component {	
     render() {
         const {content} = this.props;
         return (
             <section className="banner">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12 col-md-10">
+                <Grid>
+                    <Row className="show-grid">
+                        <Col sm={12} md={10}>
                             <div className="banner-content">
                                 <h2>{content}</h2>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </Col>
+                    </Row>
+                </Grid>
             </section>
         )
     }

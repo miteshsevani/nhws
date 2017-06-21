@@ -1,5 +1,4 @@
 import React from "react";
-import Awareness from "./Awareness.js";
 import Banner from "./Banner.js";
 import Contact from "./Contact.js";
 import Daterape from "./DateRapeDrugs";
@@ -8,7 +7,6 @@ import Footer from "./Footer.js"
 import Grooming from "./Grooming.js";
 import Header from "./Header.js";
 import Nav from "./Nav.js";
-import PastEvents from "./PastEvents";
 import Prevention from "./Prevention";
 import StayingSafe from "./StayingSafe.js";
 

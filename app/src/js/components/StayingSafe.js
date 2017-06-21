@@ -1,26 +1,27 @@
 import React from "react";
+import { Grid,Row,Col } from 'react-bootstrap';
 
 export default class StayingSafe extends React.Component {
     render() {
         const {content} = this.props;
         return(
             <section id="staying-safe">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12">
+                <Grid>
+                    <Row className="show-grid">
+                        <Col sm={12}>
                             <h3>Staying Safe</h3>
-                        </div>
+                        </Col>
                         <ul>
                         {content.map((safe, key) => {
                             return(
-                                <div key={key} className="col-sm-6">  
+                                <Col key={key} sm={6}>
                                     <li>{safe.item}</li>
-                                </div>
+                                </Col>
                             )
                         })}
                         </ul>
-                    </div>
-                </div>
+                    </Row>
+                </Grid>
             </section>
         )
     }

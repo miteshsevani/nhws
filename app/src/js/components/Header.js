@@ -1,21 +1,22 @@
 import React from "react";
 import Image from "./Image";
+import { Grid,Row,Col } from 'react-bootstrap';
 
 export default class Header extends React.Component {	
 	render() {
 		const {content} = this.props;
 		return(
 			<header>
-				<div className="container">
-					<div className="row">
-						<div className="col-xs-3 col-sm-1 logo">
+				<Grid>
+					<Row className="show-grid">
+						<Col xs={3} sm={1} className="logo">
 							<Image image="images/nhws-logo.png" />
-						</div>						
-						<div className="col-xs-9 col-sm-11 header-title">
+						</Col>
+						<Col xs={9} sm={11} className="header-title">
 							<h1>{content}</h1>
-						</div>
-					</div>
-				</div>
+						</Col>
+					</Row>
+				</Grid>
 			</header>
 		);
 	}

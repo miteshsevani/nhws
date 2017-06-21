@@ -85,8 +85,7 @@ body {
       @media #{$large}{
         border-bottom: 4px solid $primary-orange;  
       }
-      
-      
+
       @include boxShadow(6px,0.3);
 
       li {
@@ -205,11 +204,12 @@ body {
       max-width: none;
       
       .banner-content {        
-        text-align: left;
-        bottom: -82px;
+        text-align: center;
+        bottom: -110px;
         position: relative;
         @media #{$small} {
           bottom: 0px;
+          text-align: left;
         }
         h2 {          
           color: $section-background;
@@ -219,7 +219,7 @@ body {
           box-shadow: 10px 0 0 $section-background-dark, -10px 0 0 $section-background-dark;
           box-decoration-break: clone;
           padding: 5px 0px 7px 0px;
-          font-size: 20px;
+          font-size: 18px;
           line-height: 36px;
           @media #{$small} {
             font-size: 22px;
@@ -304,7 +304,6 @@ body {
       }
 
       ul {
-        
         li {
           background: url('../images/icons/icon-circle.svg') no-repeat;
           background-size: 50px;          

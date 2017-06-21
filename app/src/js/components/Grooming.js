@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "./Image";
+import { Grid,Row,Col } from 'react-bootstrap';
 
 export default class Grooming extends React.Component {
     
@@ -7,21 +8,21 @@ export default class Grooming extends React.Component {
         const {content} = this.props;
         return(
             <section id="grooming">                
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-7">
+                <Grid>
+                    <Row className="show-grid">
+                        <Col md={7}>
                             <h3>Grooming</h3>
                             {content.map((text,key) => {
                                 return(
                                     <p key={key}>{text}</p>
                                 )
                             })}
-                        </div>
-                        <div className="col-md-5">                            
+                        </Col>
+                        <Col md={5}>
                             <Image image="images/grooming-stages.png" />
-                        </div>
-                    </div>
-                </div>
+                        </Col>
+                    </Row>
+                </Grid>
             </section>
         )
     }
