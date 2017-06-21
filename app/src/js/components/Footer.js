@@ -24,7 +24,7 @@ export default class Footer extends React.Component {
                                 <li><Image image="images/icons/icon-mail.svg" /><a href={"mailto:"+content.contact[0].email}>{content.contact[0].email}</a></li>
                             </ul>
                         </Col>
-                        <Col xs={8} sm={4} xsOffset={1} smOffset={0}>
+                        <Col xs={8} sm={4} xsOffset={4} smOffset={0}>
                             <h5>Useful Links</h5>
                             <ul>
                             {content.useful_links.map((item,key) => {
