@@ -42,7 +42,7 @@ body {
 
     .sticky {
       z-index: 100;
-      #contact {
+      .contact {
         &.desktop {
           margin-top: 0px;
         }
@@ -143,7 +143,7 @@ body {
       }
     }
       
-    #contact {
+    .contact {
       &.desktop {
         display:none;
       }
@@ -235,7 +235,7 @@ body {
       }
     }
 
-    #grooming {
+    .grooming {
       background:$section-background;
       /*background-image:url("../images/grooming.jpg");    
       @include background(no-repeat, 50%, cover);*/
@@ -247,7 +247,7 @@ body {
       }
     }
 
-    #date-rape-drugs {
+    .date-rape-drugs {
       background-color: #000;
       color: $secondary-color;
       padding-top: 0px;
@@ -283,7 +283,7 @@ body {
       
     }
 
-    #prevention {
+    .prevention {
       background:antiquewhite;
       .telling-signs {
         margin-top: 30px;
@@ -293,7 +293,7 @@ body {
       }
     }
     
-    #staying-safe {      
+    .staying-safe {      
       font-size: $font-size + 1;
       text-align: center;
     
@@ -316,11 +316,7 @@ body {
       }
     }
     
-    #past-events {
-      background:$section-background;
-    }
-
-    #documentaries {
+    .documentaries {
       background: $section-background-dark;
       color: $secondary-color;
       h2 {

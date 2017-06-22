@@ -1,12 +1,14 @@
 import React from "react";
 import { Grid,Row,Col } from 'react-bootstrap';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import TellingSigns from "./TellingSigns";
 export default class Prevention extends React.Component {
     
     render() {
         const {content} = this.props;
         return(
-            <section id="prevention">                
+            <section className="prevention">
+                <ScrollableAnchor id={'prevention'}>
                 <Grid>
                     <Row className="show-grid">                        
                         <Col sm={12} md={6}>
@@ -18,6 +20,7 @@ export default class Prevention extends React.Component {
                         </Col>
                     </Row>
                 </Grid>
+                </ScrollableAnchor>
             </section>
         )
     }

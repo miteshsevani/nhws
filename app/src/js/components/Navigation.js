@@ -1,9 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import classnames from 'classnames';
+import { configureAnchors } from 'react-scrollable-anchor';
 import Sticky from 'react-sticky-el';
 import Contact from "./Contact.js";
-export default class Nav extends React.Component {
+
+configureAnchors({offset: -100, scrollDuration: 900})
+
+export default class Navigation extends React.Component {
 
 	getNav(nav) {		
 		return(		

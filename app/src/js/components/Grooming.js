@@ -1,13 +1,15 @@
 import React from "react";
-import Image from "./Image";
+import ScrollableAnchor from 'react-scrollable-anchor';
 import { Grid,Row,Col } from 'react-bootstrap';
+import Image from "./Image";
 
 export default class Grooming extends React.Component {
     
     render() {
         const {content} = this.props;
         return(
-            <section id="grooming">                
+            <section className="grooming">     
+                <ScrollableAnchor id={'grooming'}>           
                 <Grid>
                     <Row className="show-grid">
                         <Col md={7}>
@@ -23,6 +25,7 @@ export default class Grooming extends React.Component {
                         </Col>
                     </Row>
                 </Grid>
+                </ScrollableAnchor>
             </section>
         )
     }

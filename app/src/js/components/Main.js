@@ -1,14 +1,14 @@
 import React from "react";
-import Banner from "./Banner.js";
-import Contact from "./Contact.js";
+import Banner from "./Banner";
+import Contact from "./Contact";
 import Daterape from "./DateRapeDrugs";
-import Documentaries from "./Documentaries.js";
-import Footer from "./Footer.js"
-import Grooming from "./Grooming.js";
-import Header from "./Header.js";
-import Nav from "./Nav.js";
+import Documentaries from "./Documentaries";
+import Footer from "./Footer";
+import Grooming from "./Grooming";
+import Header from "./Header";
+import Navigation from "./Navigation";
 import Prevention from "./Prevention";
-import StayingSafe from "./StayingSafe.js";
+import StayingSafe from "./StayingSafe";
 
 
 export default class Main extends React.Component {
@@ -20,7 +20,7 @@ export default class Main extends React.Component {
 		return(
 			<div>				
 				<Header content={content.title} />
-				<Nav navigation={navigation} content={content.contact} />
+				<Navigation navigation={navigation} content={content.contact} />
 				<Contact content={content.contact} styleName="desktop" />
 				<Banner content={content.banner} />
 				<Grooming content={content.grooming} />

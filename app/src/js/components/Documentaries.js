@@ -1,12 +1,14 @@
 import React from "react";
+import ScrollableAnchor from 'react-scrollable-anchor';
 import { Grid,Row,Col } from 'react-bootstrap';
 
 export default class Documentaries extends React.Component {
-
+    
     render() {
         const {content} = this.props;
         return(
-            <section id="documentaries">
+            <section className="documentaries">
+                <ScrollableAnchor id={'documentaries'}>
                 <Grid>
                     <Row className="show-grid">
                         
@@ -24,6 +26,7 @@ export default class Documentaries extends React.Component {
                         </Col>
                     </Row>
                 </Grid>
+                </ScrollableAnchor>
             </section>
         )
     }

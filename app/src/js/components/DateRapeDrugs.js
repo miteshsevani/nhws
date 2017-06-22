@@ -1,13 +1,15 @@
 import React from "react";
-import Image from "./Image.js";
 import { Grid,Row,Col } from 'react-bootstrap';
+import ScrollableAnchor from 'react-scrollable-anchor';
+import Image from "./Image.js";
 
 export default class DateRapeDrugs extends React.Component {
 
     render() {
         const {content} = this.props;
         return(
-            <section id="date-rape-drugs">                
+            <section className="date-rape-drugs">
+                <ScrollableAnchor id={'date-rape-drugs'}>
                 <Grid>
                     <Row className="show-grid">                        
                         <Col sm={6} className="dr-bg">
@@ -19,6 +21,7 @@ export default class DateRapeDrugs extends React.Component {
                         </Col>
                     </Row>
                 </Grid>
+                </ScrollableAnchor>
             </section>
         )
     }
