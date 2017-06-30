@@ -8,8 +8,8 @@ export default class Grooming extends React.Component {
     render() {
         const {content} = this.props;
         return(
-            <section className="grooming">     
-                <ScrollableAnchor id={'grooming'}>           
+            <section className="grooming">
+                <ScrollableAnchor id={'grooming'}>
                 <Grid>
                     <Row className="show-grid">
                         <Col md={7}>

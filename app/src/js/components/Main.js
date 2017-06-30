@@ -5,6 +5,7 @@ import Daterape from "./DateRapeDrugs";
 import Documentaries from "./Documentaries";
 import Footer from "./Footer";
 import Grooming from "./Grooming";
+import GroomingProcess from "./GroomingProcess";
 import Header from "./Header";
 import Navigation from "./Navigation";
 import Prevention from "./Prevention";
@@ -24,6 +25,7 @@ export default class Main extends React.Component {
 				<Contact content={content.contact} styleName="desktop" />
 				<Banner content={content.banner} />
 				<Grooming content={content.grooming} />
+				<GroomingProcess />
 				<Daterape content={content.date_rape_drugs} />
 				<Prevention content={content} />
 				<StayingSafe content={content.staying_safe} />				
