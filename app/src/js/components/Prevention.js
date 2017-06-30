@@ -12,8 +12,8 @@ export default class Prevention extends React.Component {
                 <Grid>
                     <Row className="show-grid">                        
                         <Col sm={12} md={6}>
-                            <h3>Prevention</h3>
-                            <p>{content.prevention}</p>
+                            <h3>{content.prevention[0].title}</h3>
+                            <p>{content.prevention[0].text}</p>
                         </Col>
                         <Col sm={12} md={5} mdOffset={1}>
                             <TellingSigns content={content.telling_signs} />

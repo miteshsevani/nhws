@@ -13,15 +13,39 @@
         "National Hindu Welfare Support works with communities, families and girls to raise awareness about grooming and provides assistance and support to those in need."
     ],
     "grooming": [
-        "Grooming is when someone builds an emotional connection with you to gain your trust for the purposes of sexual abuse leading to conversion to another faith. Many victims do not understand that they have been groomed or that what has happened is abuse.",
-        "Grooming starts with the offender targeting and profiling suitable girls to be exploited or converted. Over time the girls’ trust may be gained by attention, flattery and gifts. The intention of the offender is to draw the girl in more deeply, by making her feel special and then to isolate her from friends and family. Groomers often seek out girls usinBirmighamg social media.",
-        "Once the relationship is sexualised the offender will take advantage by threats, blackmail and exposure unless demands are fulfilled. Once the offender gains control the girl is subject to further manipulation and eventually she will be left isolated and destitute, with little or no help available."
+        {
+            "title":"Grooming",
+            "text": [
+                "Grooming is when someone builds an emotional connection with you to gain your trust for the purposes of sexual abuse leading to conversion to another faith. Many victims do not understand that they have been groomed or that what has happened is abuse.",
+                "Grooming starts with the offender targeting and profiling suitable girls to be exploited or converted. Over time the girls’ trust may be gained by attention, flattery and gifts. The intention of the offender is to draw the girl in more deeply, by making her feel special and then to isolate her from friends and family. Groomers often seek out girls usinBirmighamg social media.",
+                "Once the relationship is sexualised the offender will take advantage by threats, blackmail and exposure unless demands are fulfilled. Once the offender gains control the girl is subject to further manipulation and eventually she will be left isolated and destitute, with little or no help available."
+            ]
+        }        
+    ],
+    "grooming_process": [
+        {
+            "title": "Grooming Process",
+            "text": [
+                "Internet predators use a process called grooming to develop a relationship with their victim. After the victim's trust develops, the groomer may use this trust to exploit their victims in sexual ways."
+            ],
+            "link":"https://www.youtube.com/embed/vUaN3Q5EU4E"
+        }
     ],
     "date_rape_drugs" : [
-        "Alcohol and drugs are often used in grooming. Alcohol can be spiked with date rape drugs such as rohypnol, ketamine and gamma-hydroxybutyrate (G.B.H). Drugs such as these are odourless, tasteless and colourless and they are easily added to food and drink without you realising. Date rape drugs affect you within 10 minutes of taking them and last for 24 hours. Such drugs are hypnotic, may cause amnesia and may have dissociative effects."
+        {
+            "title": "Date Rape Drugs",
+            "text": [
+                "Alcohol and drugs are often used in grooming. Alcohol can be spiked with date rape drugs such as rohypnol, ketamine and gamma-hydroxybutyrate (G.B.H). Drugs such as these are odourless, tasteless and colourless and they are easily added to food and drink without you realising. Date rape drugs affect you within 10 minutes of taking them and last for 24 hours. Such drugs are hypnotic, may cause amnesia and may have dissociative effects."
+            ]
+        }
     ],
     "prevention" : [
-        "University is full of new experiences, new people and new ideas. Whilst you should be open to these, it is important to be aware that there are groups with ulterior motives. Do not get caught out. Have a good group of friends. Look out for your friends if they start to become withdrawn, have any other unusual changes in behaviour or show any of the signs of grooming mentioned, make an effort to find out what is going on with them. Stay in control and never let indecent photos be taken."
+        {
+            "title": "Prvention",
+            "text": [
+                "University is full of new experiences, new people and new ideas. Whilst you should be open to these, it is important to be aware that there are groups with ulterior motives. Do not get caught out. Have a good group of friends. Look out for your friends if they start to become withdrawn, have any other unusual changes in behaviour or show any of the signs of grooming mentioned, make an effort to find out what is going on with them. Stay in control and never let indecent photos be taken."
+            ]
+        }  
     ],
     "staying_safe" : [
         { "item" : "Alcohol is the number one date rape drug, avoid it if you can" },        
@@ -44,10 +68,15 @@
         {
             "title" : "BBC Inside Out",
             "subtitle" : "The hidden scandal of sexual grooming",
-            "description" : "An Inside Out London special, uncovers the hidden scandal of sexual grooming of young Sikh girls by Muslim men. Breaking their silence, they speak to Chris Rogers about their experiences at the hands of these predatory men and why justice is being denied to them by their own community and the police."
+            "description" : "An Inside Out London special, uncovers the hidden scandal of sexual grooming of young Sikh girls by Muslim men. Breaking their silence, they speak to Chris Rogers about their experiences at the hands of these predatory men and why justice is being denied to them by their own community and the police.",
+            "link": "https://www.youtube.com/embed/7hXTM7ehvtk"
         }
     ],
     "useful_links" : [
+        {
+            "item" : "Sikh Awareness Society",
+            "link" : "http://www.sasorg.co.uk/"
+        },
         { 
             "item" : "Parents Protect",
             "link" : "https://www.parentsprotect.co.uk"

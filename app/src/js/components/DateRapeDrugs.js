@@ -16,8 +16,8 @@ export default class DateRapeDrugs extends React.Component {
                             <Image image="images/drink-spiking.jpg" />
                         </Col>                        
                         <Col sm={6} className="dr-text">
-                            <h3>Date Rape Drugs</h3>
-                            <p>{content}</p>
+                            <h3>{content[0].title}</h3>
+                            <p>{content[0].text}</p>
                         </Col>
                     </Row>
                 </Grid>

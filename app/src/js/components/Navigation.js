@@ -40,7 +40,7 @@ export default class Navigation extends React.Component {
 							<Contact content={content} styleName="mobile" />
 						</div>
 					</div>
-					<div id="navbar" className="navbar-collapse collapse">		
+					<div id="navbar" className="navbar-collapse collapse">
 						{this.getNav(navigation)}
 					</div>
 				</div>

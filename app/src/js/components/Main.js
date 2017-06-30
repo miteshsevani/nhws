@@ -25,7 +25,7 @@ export default class Main extends React.Component {
 				<Contact content={content.contact} styleName="desktop" />
 				<Banner content={content.banner} />
 				<Grooming content={content.grooming} />
-				<GroomingProcess />
+				<GroomingProcess content={content.grooming_process} />
 				<Daterape content={content.date_rape_drugs} />
 				<Prevention content={content} />
 				<StayingSafe content={content.staying_safe} />				

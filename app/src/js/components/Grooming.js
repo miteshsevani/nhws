@@ -13,10 +13,10 @@ export default class Grooming extends React.Component {
                 <Grid>
                     <Row className="show-grid">
                         <Col md={7}>
-                            <h3>Grooming</h3>
-                            {content.map((text,key) => {
+                            <h3>{content[0].title}</h3>
+                            {content[0].text.map((paragraphs,key) => {
                                 return(
-                                    <p key={key}>{text}</p>
+                                    <p key={key}>{paragraphs}</p>
                                 )
                             })}
                         </Col>
