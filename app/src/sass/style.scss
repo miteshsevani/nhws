@@ -248,6 +248,12 @@ body {
     }
 
     .grooming-process {
+      a {
+        &:hover {
+          color: darken($primary-blue,10%);
+          text-decoration: none;
+        }
+      }
       @media #{$medium} {
         .row {
           display: flex;
@@ -321,10 +327,9 @@ body {
 
       ul {
         li {
-          background: url('../images/icons/icon-circle.svg') no-repeat;
+          background: url('../images/icons/tick-grey.png') no-repeat;
           background-size: 50px;          
           height: 50px;
-          margin: 25px 0px;
           padding-left: 60px;
           display: table-cell;
           vertical-align: middle;

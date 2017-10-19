@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid,Row,Col } from 'react-bootstrap';
 
-export default class GroomingProcess extends React.Component {    
+export default class GroomingProcess extends React.Component {
     render() {
         const {content} = this.props;
         return(            
@@ -19,7 +19,8 @@ export default class GroomingProcess extends React.Component {
                                     return(
                                         <p key={key}>{paragraph}</p>
                                     )
-                                })}                                
+                                })}
+                                {(video.link2) ? <p><a href={video.link2} target="_blank">Watch in English</a></p>:null}
                             </Col>
                         </Row>
                     )
