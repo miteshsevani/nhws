@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { Grid,Row,Col } from 'react-bootstrap';
+import Title from "./Title";
 import Image from "./Image";
 
 export default class Grooming extends React.Component {
@@ -13,7 +14,7 @@ export default class Grooming extends React.Component {
                 <Grid>
                     <Row className="show-grid">
                         <Col md={7}>
-                            <h3>{content[0].title}</h3>
+                            <Title title={content[0].title}></Title>
                             {content[0].text.map((paragraphs,key) => {
                                 return(
                                     <p key={key}>{paragraphs}</p>

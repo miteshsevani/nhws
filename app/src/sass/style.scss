@@ -4,6 +4,10 @@
   margin: 0px auto;
 }
 
+.primary-blue {
+  color: $primary-blue;
+}
+
 body {
     font-family: Oxygen,'sans-serif';
     font-size: $font-size;
@@ -296,10 +300,6 @@ body {
         }
         span {
           color: $primary-orange;
-        }
-
-        h3 {
-          color: $primary-blue;
         }
       }
       

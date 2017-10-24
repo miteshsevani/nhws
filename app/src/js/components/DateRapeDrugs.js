@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid,Row,Col } from 'react-bootstrap';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import Title from "./Title";
 import Image from "./Image.js";
 
 export default class DateRapeDrugs extends React.Component {
@@ -16,7 +17,7 @@ export default class DateRapeDrugs extends React.Component {
                             <Image image="images/drink-spiking.jpg" />
                         </Col>                        
                         <Col sm={6} className="dr-text">
-                            <h3>{content[0].title}</h3>
+                            <Title styleType="primary-blue" title={content[0].title}></Title>
                             <p>{content[0].text}</p>
                         </Col>
                     </Row>
