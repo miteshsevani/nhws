@@ -10,8 +10,13 @@ body {
     color: $font-color;
     line-height: 1.5em;
 
+    h1, h2, h3, h4 {
+      line-height: 1.2em;
+    }
+
     h4 {
       color: $primary-red;
+      font-size: 20px;
     }
     
     img {
@@ -337,6 +342,44 @@ body {
       }
     }
     
+    .media {
+      background:$section-background;
+
+      .news {
+        margin-bottom: 16px;
+        a {
+          .image-wrapper {          
+            overflow: hidden;
+            height: 200px;
+            max-width: 100%;          
+            img {
+              object-fit: cover;
+              height: 200px;
+              width: 100%;
+            }
+          }
+        
+          .agency {
+            font-size: $font-size;              
+            color: $primary-blue;
+            margin-top: 8px;
+          }
+
+          h4 {
+            margin-top: 0px;
+            color: $font-color;
+          }
+          
+          &:hover {
+            text-decoration: none;
+            h4 {
+              color: $primary-blue;
+            }
+          }
+        }
+      }
+    }
+
     .documentaries {
       background: $section-background-dark;
       color: $secondary-color;

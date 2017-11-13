@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Grooming from "./Grooming";
 import GroomingProcess from "./GroomingProcess";
 import Header from "./Header";
+import Media from "./Media";
 import Navigation from "./Navigation";
 import Prevention from "./Prevention";
 import StayingSafe from "./StayingSafe";
@@ -28,7 +29,8 @@ export default class Main extends React.Component {
 				<GroomingProcess content={content.grooming_process} />
 				<Daterape content={content.date_rape_drugs} />
 				<Prevention content={content} />
-				<StayingSafe content={content.staying_safe} />				
+				<StayingSafe content={content.staying_safe} />
+				<Media content={content.media} />
 				<Documentaries content={content.documentaries} />
 				<Footer content={content} />
 			</div>

@@ -72,6 +72,43 @@
         { "item" : "Sexual health problems" },
         { "item" : "Change in physical appearance" }
     ],
+    "media" : [
+        { 
+            "title" : "In the media",
+            "news": [
+                {
+                    "title": "A mother's story of how a paedophile groomed her 11-year-old daughter online",
+                    "link": "http://www.independent.co.uk/life-style/health-and-families/internet-safety-day-hannah-h-mother-paedophile-online-grooming-11-year-old-daughter-facebook-webcam-a7560801.html",
+                    "image": "images/news/shadow-man-computer.jpg",
+                    "agency": "The Independent"
+                },
+                {
+                    "title": "Asian girls targeted by groomers, say campaigners",
+                    "link": "http://www.itv.com/news/central/2017-11-08/asian-girls-targeted-by-groomers-say-campaigners/",
+                    "image": "images/news/itv-2.png",
+                    "agency": "ITV"
+                },
+                {
+                    "title": "Grooming gangs 'are abusing girls across the country', victims and investigators warn",
+                    "link": "http://www.independent.co.uk/news/uk/crime/grooming-gangs-asian-muslim-across-country-uk-girls-children-women-bradford-rotherham-newcastle-a7987381.html",
+                    "image": "images/news/sammy-woodhouse.jpg",
+                    "agency": "The Independent"
+                },
+                {
+                    "title": "Eighteen people found guilty over Newcastle sex grooming network",
+                    "link": "https://www.theguardian.com/uk-news/2017/aug/09/newcastle-sex-grooming-network-operation-shelter",
+                    "image": "images/news/guardian.jpg",
+                    "agency": "The Guardian"
+                },
+                {
+                    "title": "Four men jailed over sexual exploitation of young girls in Newcastle",
+                    "link": "https://www.theguardian.com/uk-news/2017/nov/03/newcastle-men-jailed-sex-grooming-network-operation-sanctuary",
+                    "image": "images/news/guardian-newcastle.jpg",
+                    "agency": "The Guardian"
+                }
+            ]
+        }
+    ],
     "documentaries" : [
         {
             "title" : "BBC Inside Out",
@@ -81,6 +118,11 @@
         }
     ],
     "useful_links" : [
+        {
+            "item" : "Internet Matters",
+            "link" : "https://www.internetmatters.org/issues/online-grooming/"
+            
+        },
         {
             "item" : "Sikh Awareness Society",
             "link" : "http://www.sasorg.co.uk/"
