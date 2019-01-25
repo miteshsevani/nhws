@@ -23,20 +23,28 @@
         }        
     ],
     "grooming_process": [
+
+        {
+            "title": "Risks children face online: Grooming",
+            "text": [
+                "It is vital that parents and carers understand how children and young people can be groomed online and what they can do to protect their child in the spaces they inhabit."
+            ],
+            "link":"https://www.youtube.com/embed/5YhmxypXLO0"
+        },
         {
             "title": "The Grooming Process",
             "text": [
                 "Internet predators use a process called grooming to develop a relationship with their victim. After the victim's trust develops, the groomer may use this trust to exploit their victims in sexual ways."
             ],
-            "link":"https://www.youtube.com/embed/vUaN3Q5EU4E"
+            "link":"https://www.youtube.com/embed/vUaN3Q5EU4E?rel=0"
         },
         {
             "title": "Kayleigh's \"Love\" Story",
             "text": [
                 "Kayleigh’s Love Story is a film about aspects of the last 13 days of the life of 15-year-old Kayleigh Haywood."
             ],
-            "link":"https://www.youtube.com/embed/EMJJ1kz41eE",
-            "link2": "https://www.youtube.com/watch?v=WsbYHI-rZOE"
+            "link":"https://www.youtube.com/embed/EMJJ1kz41eE?rel=0",
+            "link2": "https://www.youtube.com/watch?v=WsbYHI-rZOE?rel=0"
         }
     ],
     "date_rape_drugs" : [
@@ -114,14 +122,13 @@
             "title" : "BBC Inside Out",
             "subtitle" : "The hidden scandal of sexual grooming",
             "description" : "An Inside Out London special, uncovers the hidden scandal of sexual grooming of young Sikh girls by Muslim men. Breaking their silence, they speak to Chris Rogers about their experiences at the hands of these predatory men and why justice is being denied to them by their own community and the police.",
-            "link": "https://www.youtube.com/embed/7hXTM7ehvtk"
+            "link": "https://www.youtube.com/embed/7hXTM7ehvtk?rel=0"
         }
     ],
     "useful_links" : [
         {
             "item" : "Internet Matters",
             "link" : "https://www.internetmatters.org/issues/online-grooming/"
-            
         },
         {
             "item" : "Sikh Awareness Society",
