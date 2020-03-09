@@ -1,158 +1,202 @@
 {
-    "title": [
-        "National Hindu Welfare Support"
-    ],
-    "contact": [
-        { 
-            "text" : "Confidential helpline",
-            "phone" : "020 7341 6279",
-            "email" : "info.nhws@gmail.com"
-        }
-    ],    
-    "banner": [
-        "National Hindu Welfare Support works with communities, families and girls to raise awareness about grooming and provides assistance and support to those in need."
-    ],
-    "grooming": [
-        {
-            "title":"Grooming",
-            "text": [
-                "Grooming is when someone builds an emotional connection with you to gain your trust for the purposes of sexual abuse leading to conversion to another faith. Many victims do not understand that they have been groomed or that what has happened is abuse.",
-                "Grooming starts with the offender targeting and profiling suitable girls to be exploited or converted. Over time the girls’ trust may be gained by attention, flattery and gifts. The intention of the offender is to draw the girl in more deeply, by making her feel special and then to isolate her from friends and family. Groomers often seek out girls using social media.",
-                "Once the relationship is sexualised the offender will take advantage by threats, blackmail and exposure unless demands are fulfilled. Once the offender gains control the girl is subject to further manipulation and eventually she will be left isolated and destitute, with little or no help available."
-            ]
-        }        
-    ],
-    "grooming_process": [
-
-        {
-            "title": "Risks children face online: Grooming",
-            "text": [
-                "It is vital that parents and carers understand how children and young people can be groomed online and what they can do to protect their child in the spaces they inhabit."
-            ],
-            "link":"https://www.youtube.com/embed/5YhmxypXLO0"
-        },
-        {
-            "title": "The Grooming Process",
-            "text": [
-                "Internet predators use a process called grooming to develop a relationship with their victim. After the victim's trust develops, the groomer may use this trust to exploit their victims in sexual ways."
-            ],
-            "link":"https://www.youtube.com/embed/vUaN3Q5EU4E?rel=0"
-        },
-        {
-            "title": "Kayleigh's \"Love\" Story",
-            "text": [
-                "Kayleigh’s Love Story is a film about aspects of the last 13 days of the life of 15-year-old Kayleigh Haywood."
-            ],
-            "link":"https://www.youtube.com/embed/EMJJ1kz41eE?rel=0",
-            "link2": "https://www.youtube.com/watch?v=WsbYHI-rZOE?rel=0"
-        }
-    ],
-    "date_rape_drugs" : [
-        {
-            "title": "Date Rape Drugs",
-            "text": [
-                "Alcohol and drugs are often used in grooming. Alcohol can be spiked with date rape drugs such as rohypnol, ketamine and gamma-hydroxybutyrate (G.B.H). Drugs such as these are odourless, tasteless and colourless and they are easily added to food and drink without you realising. Date rape drugs affect you within 10 minutes of taking them and last for 24 hours. Such drugs are hypnotic, may cause amnesia and may have dissociative effects."
-            ]
-        }
-    ],
-    "prevention" : [
-        {
-            "title": "Prevention",
-            "text": [
-                "University is full of new experiences, new people and new ideas. Whilst you should be open to these, it is important to be aware that there are groups with ulterior motives. Do not get caught out. Have a good group of friends. Look out for your friends if they start to become withdrawn, have any other unusual changes in behaviour or show any of the signs of grooming mentioned, make an effort to find out what is going on with them. Stay in control and never let indecent photos be taken."
-            ]
-        }  
-    ],
-    "staying_safe" : [
-        { "item" : "Alcohol is the number one date rape drug, avoid it if you can" },        
-        { "item" : "Never leave your drink unattended" },
-        { "item" : "On a night out stay with friends and if you leave early ensure they know where you are" },
-        { "item" : "Know your limits" },
-        { "item" : "Trust your instincts" },
-        { "item" : "Ensure you share taxis with friends late at night and always take a licensed taxi" }
-    ],
-    "telling_signs" : [
-        { "item" : "Regularly missing from home, school, college or university and/or staying out all night" },
-        { "item" : "Change in behaviour-becoming aggressive and disruptive, quiet or withdrawn" },
-        { "item" : "Appearance of unexplained gifts, new possessions such as clothes, jewellery, mobile phones or money that cannot be accounted for" },
-        { "item" : "Secretive usage of mobile phone and social media" },
-        { "item" : "Sudden involvement in criminal behaviour or increased offending" },
-        { "item" : "Sexual health problems" },
-        { "item" : "Change in physical appearance" }
-    ],
-    "media" : [
-        { 
-            "title" : "In the media",
-            "news": [
-                {
-                    "title": "A mother's story of how a paedophile groomed her 11-year-old daughter online",
-                    "link": "http://www.independent.co.uk/life-style/health-and-families/internet-safety-day-hannah-h-mother-paedophile-online-grooming-11-year-old-daughter-facebook-webcam-a7560801.html",
-                    "image": "images/news/shadow-man-computer.jpg",
-                    "agency": "The Independent"
-                },
-                {
-                    "title": "Asian girls targeted by groomers, say campaigners",
-                    "link": "http://www.itv.com/news/central/2017-11-08/asian-girls-targeted-by-groomers-say-campaigners/",
-                    "image": "images/news/itv-2.png",
-                    "agency": "ITV"
-                },
-                {
-                    "title": "Grooming gangs 'are abusing girls across the country', victims and investigators warn",
-                    "link": "http://www.independent.co.uk/news/uk/crime/grooming-gangs-asian-muslim-across-country-uk-girls-children-women-bradford-rotherham-newcastle-a7987381.html",
-                    "image": "images/news/sammy-woodhouse.jpg",
-                    "agency": "The Independent"
-                },
-                {
-                    "title": "Eighteen people found guilty over Newcastle sex grooming network",
-                    "link": "https://www.theguardian.com/uk-news/2017/aug/09/newcastle-sex-grooming-network-operation-shelter",
-                    "image": "images/news/guardian.jpg",
-                    "agency": "The Guardian"
-                },
-                {
-                    "title": "Four men jailed over sexual exploitation of young girls in Newcastle",
-                    "link": "https://www.theguardian.com/uk-news/2017/nov/03/newcastle-men-jailed-sex-grooming-network-operation-sanctuary",
-                    "image": "images/news/guardian-newcastle.jpg",
-                    "agency": "The Guardian"
-                }
-            ]
-        }
-    ],
-    "documentaries" : [
-        {
-            "title" : "BBC Inside Out",
-            "subtitle" : "The hidden scandal of sexual grooming",
-            "description" : "An Inside Out London special, uncovers the hidden scandal of sexual grooming of young Sikh girls by Muslim men. Breaking their silence, they speak to Chris Rogers about their experiences at the hands of these predatory men and why justice is being denied to them by their own community and the police.",
-            "link": "https://www.youtube.com/embed/7hXTM7ehvtk?rel=0"
-        }
-    ],
-    "useful_links" : [
-        {
-            "item" : "Internet Matters",
-            "link" : "https://www.internetmatters.org/issues/online-grooming/"
-        },
-        {
-            "item" : "Sikh Awareness Society",
-            "link" : "http://www.sasorg.co.uk/"
-        },
-        { 
-            "item" : "Parents Protect",
-            "link" : "https://www.parentsprotect.co.uk"
-        },
-        { 
-            "item" : "Childline",
-            "link" : "http://www.childline.org.uk"
-        },
-        { 
-            "item" : "My dangerous loverboy",
-            "link" : "http://www.mydangerousloverboy.com"
-        },
-        { 
-            "item" : "NSPCC",
-            "link" : "https://www.nspcc.org.uk/"
-        },
-        { 
-            "item" : "PACE",
-            "link" : "http://paceuk.info"
-        }
-    ]
+	"title": [
+		"National Hindu Welfare Support"
+	],
+	"contact": [
+		{
+			"text": "Confidential helpline",
+			"phone": "020 7341 6279",
+			"email": "info.nhws@gmail.com"
+		}
+	],
+	"banner": [
+		"National Hindu Welfare Support works with communities, families and girls to raise awareness about grooming and provides assistance and support to those in need."
+	],
+	"grooming": [
+		{
+			"title": "Grooming",
+			"text": [
+				"Grooming is when someone builds an emotional connection with you to gain your trust for the purposes of sexual abuse leading to conversion to another faith. Many victims do not understand that they have been groomed or that what has happened is abuse.",
+				"Grooming starts with the offender targeting and profiling suitable girls to be exploited or converted. Over time the girls’ trust may be gained by attention, flattery and gifts. The intention of the offender is to draw the girl in more deeply, by making her feel special and then to isolate her from friends and family. Groomers often seek out girls using social media.",
+				"Once the relationship is sexualised the offender will take advantage by threats, blackmail and exposure unless demands are fulfilled. Once the offender gains control the girl is subject to further manipulation and eventually she will be left isolated and destitute, with little or no help available."
+			]
+		}
+	],
+	"grooming_process": [
+		{
+			"title": "Social Media Dangers Exposed by Mom Posing as 11-Year-Old",
+			"text": [
+				"A 37-year old mom goes undercover as an 11-year old girl to expose the dangers facing kids on social media platforms like Instagram, Snapchat, TikTok, and Kik. Left unsupervised, young children can be exposed to online predators, grooming, and psychological abuse within minutes."
+			],
+			"link": "https://www.youtube.com/embed/dbg4hNHsc_8"
+		},
+		{
+			"title": "Risks children face online: Grooming",
+			"text": [
+				"It is vital that parents and carers understand how children and young people can be groomed online and what they can do to protect their child in the spaces they inhabit."
+			],
+			"link": "https://www.youtube.com/embed/5YhmxypXLO0"
+		},
+		{
+			"title": "The Grooming Process",
+			"text": [
+				"Internet predators use a process called grooming to develop a relationship with their victim. After the victim's trust develops, the groomer may use this trust to exploit their victims in sexual ways."
+			],
+			"link": "https://www.youtube.com/embed/vUaN3Q5EU4E?rel=0"
+		},
+		{
+			"title": "Kayleigh's \"Love\" Story",
+			"text": [
+				"Kayleigh’s Love Story is a film about aspects of the last 13 days of the life of 15-year-old Kayleigh Haywood."
+			],
+			"link": "https://www.youtube.com/embed/EMJJ1kz41eE?rel=0",
+			"link2": "https://www.youtube.com/watch?v=WsbYHI-rZOE?rel=0"
+		}
+	],
+	"date_rape_drugs": [
+		{
+			"title": "Date Rape Drugs",
+			"text": [
+				"Alcohol and drugs are often used in grooming. Alcohol can be spiked with date rape drugs such as rohypnol, ketamine and gamma-hydroxybutyrate (G.B.H). Drugs such as these are odourless, tasteless and colourless and they are easily added to food and drink without you realising. Date rape drugs affect you within 10 minutes of taking them and last for 24 hours. Such drugs are hypnotic, may cause amnesia and may have dissociative effects."
+			]
+		}
+	],
+	"prevention": [
+		{
+			"title": "Prevention",
+			"text": [
+				"University is full of new experiences, new people and new ideas. Whilst you should be open to these, it is important to be aware that there are groups with ulterior motives. Do not get caught out. Have a good group of friends. Look out for your friends if they start to become withdrawn, have any other unusual changes in behaviour or show any of the signs of grooming mentioned, make an effort to find out what is going on with them. Stay in control and never let indecent photos be taken."
+			]
+		}
+	],
+	"staying_safe": [
+		{
+			"item": "Alcohol is the number one date rape drug, avoid it if you can"
+		},
+		{
+			"item": "Never leave your drink unattended"
+		},
+		{
+			"item": "On a night out stay with friends and if you leave early ensure they know where you are"
+		},
+		{
+			"item": "Know your limits"
+		},
+		{
+			"item": "Trust your instincts"
+		},
+		{
+			"item": "Ensure you share taxis with friends late at night and always take a licensed taxi"
+		}
+	],
+	"telling_signs": [
+		{
+			"item": "Regularly missing from home, school, college or university and/or staying out all night"
+		},
+		{
+			"item": "Change in behaviour-becoming aggressive and disruptive, quiet or withdrawn"
+		},
+		{
+			"item": "Appearance of unexplained gifts, new possessions such as clothes, jewellery, mobile phones or money that cannot be accounted for"
+		},
+		{
+			"item": "Secretive usage of mobile phone and social media"
+		},
+		{
+			"item": "Sudden involvement in criminal behaviour or increased offending"
+		},
+		{
+			"item": "Sexual health problems"
+		},
+		{
+			"item": "Change in physical appearance"
+		}
+	],
+	"media": [
+		{
+			"title": "In the media",
+			"news": [
+				{
+					"title": "Student rape reports: The battle to be believed",
+					"link": "https://www.bbc.co.uk/news/av/uk-51073884/student-rape-reports-the-battle-to-be-believed",
+					"image": "images/news/bbc-battle-to-be-believed.jpg",
+					"agency": "BBC"
+				},
+				{
+					"title": "Pre-teen girls 'tricked into sex acts on webcams'",
+					"link": "https://www.bbc.co.uk/news/education-51052076",
+					"image": "images/news/bbc-child-phone-getty.jpg",
+					"agency": "BBC"
+				},
+				{
+					"title": "A mother's story of how a paedophile groomed her 11-year-old daughter online",
+					"link": "http://www.independent.co.uk/life-style/health-and-families/internet-safety-day-hannah-h-mother-paedophile-online-grooming-11-year-old-daughter-facebook-webcam-a7560801.html",
+					"image": "images/news/shadow-man-computer.jpg",
+					"agency": "The Independent"
+				},
+				{
+					"title": "Asian girls targeted by groomers, say campaigners",
+					"link": "http://www.itv.com/news/central/2017-11-08/asian-girls-targeted-by-groomers-say-campaigners/",
+					"image": "images/news/itv-2.png",
+					"agency": "ITV"
+				},
+				{
+					"title": "Grooming gangs 'are abusing girls across the country', victims and investigators warn",
+					"link": "http://www.independent.co.uk/news/uk/crime/grooming-gangs-asian-muslim-across-country-uk-girls-children-women-bradford-rotherham-newcastle-a7987381.html",
+					"image": "images/news/sammy-woodhouse.jpg",
+					"agency": "The Independent"
+				},
+				{
+					"title": "Eighteen people found guilty over Newcastle sex grooming network",
+					"link": "https://www.theguardian.com/uk-news/2017/aug/09/newcastle-sex-grooming-network-operation-shelter",
+					"image": "images/news/guardian.jpg",
+					"agency": "The Guardian"
+				},
+				{
+					"title": "Four men jailed over sexual exploitation of young girls in Newcastle",
+					"link": "https://www.theguardian.com/uk-news/2017/nov/03/newcastle-men-jailed-sex-grooming-network-operation-sanctuary",
+					"image": "images/news/guardian-newcastle.jpg",
+					"agency": "The Guardian"
+				}
+			]
+		}
+	],
+	"documentaries": [
+		{
+			"title": "BBC Inside Out",
+			"subtitle": "The hidden scandal of sexual grooming",
+			"description": "An Inside Out London special, uncovers the hidden scandal of sexual grooming of young Sikh girls by Muslim men. Breaking their silence, they speak to Chris Rogers about their experiences at the hands of these predatory men and why justice is being denied to them by their own community and the police.",
+			"link": "https://www.youtube.com/embed/7hXTM7ehvtk?rel=0"
+		}
+	],
+	"useful_links": [
+		{
+			"item": "Internet Matters",
+			"link": "https://www.internetmatters.org/issues/online-grooming/"
+		},
+		{
+			"item": "Sikh Awareness Society",
+			"link": "http://www.sasorg.co.uk/"
+		},
+		{
+			"item": "Parents Protect",
+			"link": "https://www.parentsprotect.co.uk"
+		},
+		{
+			"item": "Childline",
+			"link": "http://www.childline.org.uk"
+		},
+		{
+			"item": "My dangerous loverboy",
+			"link": "http://www.mydangerousloverboy.com"
+		},
+		{
+			"item": "NSPCC",
+			"link": "https://www.nspcc.org.uk/"
+		},
+		{
+			"item": "PACE",
+			"link": "http://paceuk.info"
+		}
+	]
 }

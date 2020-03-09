@@ -15,12 +15,12 @@ import StayingSafe from "./StayingSafe";
 
 export default class Main extends React.Component {
 
-	render() {		
+	render() {
 		const navigation = require("../content/nav.json");
 		const content = require("../content/content.json");
-		
-		return(
-			<div>				
+
+		return (
+			<div>
 				<Header content={content.title} />
 				<Navigation navigation={navigation} content={content.contact} />
 				<Contact content={content.contact} styleName="desktop" />

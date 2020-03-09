@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "./Image";
-import { Grid,Row,Col } from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
 
-export default class Header extends React.Component {	
+export default class Header extends React.Component {
 	render() {
-		const {content} = this.props;
-		return(
+		const { content } = this.props;
+		return (
 			<header>
 				<Grid>
 					<Row className="show-grid">
