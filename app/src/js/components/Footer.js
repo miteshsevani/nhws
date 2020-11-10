@@ -19,8 +19,6 @@ export default class Footer extends React.Component {
 						</Col>
 						<Col xs={8} sm={4} xsOffset={1} smOffset={1}>
 							<ul className="contact">
-								<li><Image image="images/icons/icon-phone.svg" />{content.contact[0].text}</li>
-								<li>{content.contact[0].phone}</li>
 								<li><Image image="images/icons/icon-mail.svg" /><a href={"mailto:" + content.contact[0].email}>{content.contact[0].email}</a></li>
 							</ul>
 						</Col>

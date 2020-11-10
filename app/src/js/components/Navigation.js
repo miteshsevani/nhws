@@ -4,6 +4,7 @@ import classnames from 'classnames';
 import { configureAnchors } from 'react-scrollable-anchor';
 import Sticky from 'react-sticky-el';
 import Contact from "./Contact.js";
+import Image from "./Image";
 
 configureAnchors({ offset: -100, scrollDuration: 900 })
 
@@ -30,6 +31,10 @@ export default class Navigation extends React.Component {
 				<nav className="navbar navbar-inverse">
 					<div className="container">
 						<div className="navbar-header">
+							<div className="navbar-contact">
+								<Image image="images/icons/icon-mail.svg" />
+								<a href="mailto:info.nhws@gmail.com">info.nhws@gmail.com</a>
+							</div>
 							<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span className="sr-only">Toggle navigation</span>
 								<span className="icon-bar"></span>

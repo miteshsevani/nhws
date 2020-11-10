@@ -5,452 +5,465 @@
 }
 
 body {
-    font-family: Oxygen,'sans-serif';
-    font-size: $font-size;
-    color: $font-color;
-    line-height: 1.5em;
+  font-family: Oxygen,'sans-serif';
+  font-size: $font-size;
+  color: $font-color;
+  line-height: 1.5em;
+}
 
-    h1, h2, h3, h4 {
-      line-height: 1.2em;
+h1, h2, h3, h4 {
+  line-height: 1.2em;
+}
+
+h4 {
+  color: $primary-red;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  color: $primary-blue;
+
+  &:hover {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+}
+
+ul {
+  list-style: none;
+  padding:0px;
+}
+header, section, footer {
+  .row {
+    margin: 0 auto;
+  }
+}
+
+section {
+  padding:40px 0px;
+}
+
+.sticky {
+  z-index: 100;
+  .contact {
+    &.desktop {
+      margin-top: 0px;
+    }
+  }
+}
+
+.container {
+  padding: 0px;
+  @media #{$small} {
+    padding: 0px 25px;
+  }
+  > .navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  background: $section-background-dark;
+
+  &.navbar-inverse {
+    border:0px;
+  }
+  .navbar-collapse {
+    padding: 0 25px;
+    @media #{$small} {
+      padding: 0px;
+    }
+  }
+  .navbar-brand {
+    padding: 12px 10px;
+  }
+}
+
+.navbar-contact {
+  display: flex;
+  float: left;
+  padding-top: 8px;
+
+  img {
+    margin-right: 8px;
+  }
+
+  @media #{$medium:} {
+    display: none;
+  }
+}
+
+.box-content {
+  background:#fff;
+  padding:15px;
+  @media #{$large}{
+    border-bottom: 4px solid $primary-orange;
+  }
+
+  @include boxShadow(6px,0.3);
+
+  li {
+    @media #{$large}{
+      border-bottom: 1px solid darken($section-background,10%);
     }
 
-    h4 {
-      color: $primary-red;
-      font-size: 20px;
+    padding: 5px 0px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+header {
+  background:url('../images/banner-bg.png');
+  @include background(no-repeat, initial, cover);
+  padding: 20px 0px;
+
+  .container {
+    .logo {
+      @media #{$small} {
+        padding-left:0px;
+        padding-right:0px;
+      }
     }
 
-    img {
-      max-width: 100%;
+    .header-title {
+      padding-left:0px;
+      @media #{$small} {
+        padding-left:10px;
+      }
+
+      display: table;
+      height: 50px;
+
+      @media #{$x-large} {
+        height: 85px;
+      }
+      h1 {
+        color: $primary-orange;
+        font-size: $font-size + 1;
+        vertical-align: middle;
+        display: table-cell;
+        @media #{$small} {
+          font-size: 28px;
+          margin: 15px 0px;
+        }
+        @media #{$large} {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+.contact {
+  &.desktop {
+    display:none;
+  }
+  background: $section-background-dark;
+  color: $primary-color;
+
+  @media #{$medium} {
+    &.mobile {
+      display:none;
+    }
+    &.desktop {
+      display:block;
+      position: absolute;
+      right: 5%;
+      margin-top: -45px;
+      padding:10px;
+      text-align: center;
+      a {
+        font-size: 16px;
+        color: #ddd;
+
+        &:hover {
+          color: #9d9d9d;
+        }
+      }
+    }
+  }
+
+  h3,h5 {
+    margin:0px 10px 0px 0px;
+    display: inline;
+    font-size: 14px;
+    @media #{$medium} {
+      font-size: 16px;
+      margin: 0px;
+      display: block;
+    }
+  }
+
+  h3 {
+    font-weight: 100;
+    font-size: 16px;
+    @media #{$medium} {
+      font-size: 26px;
+      margin-bottom: 2px;
+    }
+  }
+
+  h5 {
+    color: $primary-red;
+  }
+
+  .image {
+    display: inline;
+  }
+}
+
+.banner {
+  background: #000 url('../images/know-the-signs.png');
+  background-attachment: fixed;
+  @include background(no-repeat, 50%, cover);
+  height: 230px;
+  max-width: none;
+  @media #{$small} {
+    height: 275px;
+  }
+  .banner-content {
+    text-align: center;
+    position: relative;
+    @media #{$small} {
+      text-align: left;
+    }
+    h2 {
+      color: $section-background;
+      background-color: $section-background-dark;
+      font-weight: 100;
+      display: inline;
+      box-shadow: 10px 0 0 $section-background-dark, -10px 0 0 $section-background-dark;
+      box-decoration-break: clone;
+      padding: 5px 0px 7px 0px;
+      font-size: 17px;
+      line-height: 36px;
+      @media #{$small} {
+        font-size: 22px;
+        line-height: 45px;
+      }
+      @media #{$medium} {
+        padding: 7px 0px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+.grooming {
+  background:$section-background;
+  /*background-image:url("../images/grooming.jpg");
+  @include background(no-repeat, 50%, cover);*/
+
+  .image {
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+  }
+}
+
+.grooming-process {
+  a {
+    &:hover {
+      color: darken($primary-blue,10%);
+      text-decoration: none;
+    }
+  }
+  @media #{$medium} {
+    .row {
+      display: flex;
+      margin-bottom: 40px;
+      &:nth-child(2n) {
+        flex-direction: row-reverse;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      iframe {
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+      }
+    }
+  }
+}
+
+.date-rape-drugs {
+  background-color: #000;
+  color: $secondary-color;
+  padding-top: 0px;
+
+  //@media only screen and (min-width: 768px) and (max-width:992px) {
+  @media #{$medium} {
+    padding: 0px;
+    .dr-bg {
+      .image {
+        height: 400px;
+        display: table-cell;
+        vertical-align: middle;
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .dr-text {
+    padding: 25px 15px;
+    @media #{$large} {
+      padding: 40px 15px 50px 15px;
+    }
+    span {
+      color: $primary-orange;
+    }
+
+    h3 {
+      color: $primary-blue;
+    }
+  }
+
+}
+
+.prevention {
+  background:antiquewhite;
+  .telling-signs {
+    margin-top: 30px;
+    @media #{$large} {
+      margin-top: -110px;
+    }
+  }
+}
+
+.staying-safe {
+  font-size: $font-size + 1;
+  text-align: center;
+
+  .col-sm-6 {
+    text-align: left;
+    height: 60px;
+    margin-top: 50px;
+  }
+
+  ul {
+    li {
+      background: url('../images/icons/tick-grey.png') no-repeat;
+      background-size: 50px;
+      height: 50px;
+      padding-left: 60px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+}
+
+.media {
+  background:$section-background;
+
+  .news {
+    margin-bottom: 16px;
+    @media #{$medium} {
+      min-height: 350px;
+    }
+    @media #{$large} {
+      min-height: 320px;
     }
     a {
-      color: $primary-blue;
+      .image-wrapper {
+        overflow: hidden;
+        height: 180px;
+        max-width: 100%;
+        img {
+          object-fit: cover;
+          height: 180px;
+          width: 100%;
+        }
+      }
+
+      .agency {
+        font-size: $font-size;
+        color: $primary-blue;
+        margin-top: 8px;
+      }
+
+      h4 {
+        margin-top: 0px;
+        color: $font-color;
+      }
 
       &:hover {
-        color: $primary-color;
+        text-decoration: none;
+        h4 {
+          color: $primary-blue;
+        }
+      }
+    }
+  }
+}
+
+.documentaries {
+  background: $section-background-dark;
+  color: $secondary-color;
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: $primary-blue;
+  }
+
+  h3 {
+    margin-bottom: 25px;
+  }
+}
+
+
+footer {
+  background: $section-background-dark;
+  font-size: $font-size - 3;
+  color: $secondary-color;
+  padding: 20px 0px;
+
+  .container{
+    border-top: 4px solid $primary-orange;
+    padding: 30px 0px;
+
+    h5 {
+      font-weight: 700;
+    }
+
+    a {
+      color: $secondary-color;
+
+      &:hover {
         text-decoration: underline;
       }
     }
 
     ul {
-      list-style: none;
-      padding:0px;
-    }
-    header, section, footer {
-      .row {
-        margin: 0 auto;
+      .image {
+        display: inline-block;
+        padding-right: 8px;
       }
-    }
-
-    section {
-      padding:40px 0px;
-    }
-
-    .sticky {
-      z-index: 100;
-      .contact {
-        &.desktop {
-          margin-top: 0px;
+      &.contact {
+        li:first-child {
+          color:$primary-red;
         }
-      }
-    }
-
-    .container {
-      padding: 0px;
-      @media #{$small} {
-        padding: 0px 25px;
-      }
-      > .navbar-header {
-        margin-right: 0px;
-        margin-left: 0px;
-      }
-    }
-
-    .navbar {
-      border-radius: 0px;
-      margin-bottom: 0px;
-      background: $section-background-dark;
-
-      &.navbar-inverse {
-        border:0px;
-      }
-      .navbar-collapse {
-        padding: 0 25px;
-        @media #{$small} {
-          padding: 0px;
+        li:nth-child(2) {
+          margin-left: 38px;
+          margin-top: -6px;
         }
-      }
-      .navbar-brand {
-        padding: 12px 10px;
-      }
-    }
-
-    .box-content {
-      background:#fff;
-      padding:15px;
-      @media #{$large}{
-        border-bottom: 4px solid $primary-orange;
-      }
-
-      @include boxShadow(6px,0.3);
-
-      li {
-        @media #{$large}{
-          border-bottom: 1px solid darken($section-background,10%);
-        }
-
-        padding: 5px 0px;
-
-        &:last-child {
-          border-bottom: none;
-        }
-      }
-    }
-
-    header {
-      background:url('../images/banner-bg.png');
-      @include background(no-repeat, initial, cover);
-      padding: 20px 0px;
-
-      .container {
-        .logo {
-          @media #{$small} {
-            padding-left:0px;
-            padding-right:0px;
-          }
-        }
-
-        .header-title {
-          padding-left:0px;
-          @media #{$small} {
-            padding-left:10px;
-          }
-
-          display: table;
-          height: 50px;
-
-          @media #{$x-large} {
-            height: 85px;
-          }
-          h1 {
-            color: $primary-orange;
-            font-size: $font-size + 1;
-            vertical-align: middle;
-            display: table-cell;
-            @media #{$small} {
-              font-size: 28px;
-              margin: 15px 0px;
-            }
-            @media #{$large} {
-              font-size: 35px;
-            }
-          }
-        }
-      }
-    }
-
-    .contact {
-      &.desktop {
-        display:none;
-      }
-      background: $section-background-dark;
-      color: $primary-color;
-
-      @media #{$medium} {
-        &.mobile {
-          display:none;
-        }
-        &.desktop {
-          display:block;
-          position: absolute;
-          right: 5%;
-          margin-top: -45px;
-          padding:10px;
-          text-align: center;
+        li:nth-child(3) {
           a {
-            font-size: 16px;
-            color: #ddd;
-
-            &:hover {
-              color: #9d9d9d;
-            }
-          }
-        }
-      }
-
-      h3,h5 {
-        margin:0px 10px 0px 0px;
-        display: inline;
-        font-size: 14px;
-        @media #{$medium} {
-          font-size: 16px;
-          margin: 0px;
-          display: block;
-        }
-      }
-
-      h3 {
-        font-weight: 100;
-        font-size: 16px;
-        @media #{$medium} {
-          font-size: 26px;
-          margin-bottom: 2px;
-        }
-      }
-
-      h5 {
-        color: $primary-red;
-      }
-
-      .image {
-        display: inline;
-      }
-    }
-
-    .banner {
-      background: #000 url('../images/know-the-signs.png');
-      background-attachment: fixed;
-      @include background(no-repeat, 50%, cover);
-      height: 230px;
-      max-width: none;
-      @media #{$small} {
-        height: 275px;
-      }
-      .banner-content {
-        text-align: center;
-        position: relative;
-        @media #{$small} {
-          text-align: left;
-        }
-        h2 {
-          color: $section-background;
-          background-color: $section-background-dark;
-          font-weight: 100;
-          display: inline;
-          box-shadow: 10px 0 0 $section-background-dark, -10px 0 0 $section-background-dark;
-          box-decoration-break: clone;
-          padding: 5px 0px 7px 0px;
-          font-size: 17px;
-          line-height: 36px;
-          @media #{$small} {
-            font-size: 22px;
-            line-height: 45px;
-          }
-          @media #{$medium} {
-            padding: 7px 0px;
-            line-height: 50px;
-            letter-spacing: 1px;
-            font-size: 26px;
+            margin-left: 2px;
           }
         }
       }
     }
-
-    .grooming {
-      background:$section-background;
-      /*background-image:url("../images/grooming.jpg");
-      @include background(no-repeat, 50%, cover);*/
-
-      .image {
-        display: block;
-        margin-top: 80px;
-        text-align: center;
-      }
-    }
-
-    .grooming-process {
-      a {
-        &:hover {
-          color: darken($primary-blue,10%);
-          text-decoration: none;
-        }
-      }
-      @media #{$medium} {
-        .row {
-          display: flex;
-          margin-bottom: 40px;
-          &:nth-child(2n) {
-            flex-direction: row-reverse;
-          }
-          &:last-child {
-            margin-bottom: 0;
-          }
-          iframe {
-            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-          }
-        }
-      }
-    }
-
-    .date-rape-drugs {
-      background-color: #000;
-      color: $secondary-color;
-      padding-top: 0px;
-
-      //@media only screen and (min-width: 768px) and (max-width:992px) {
-      @media #{$medium} {
-        padding: 0px;
-        .dr-bg {
-          .image {
-            height: 400px;
-            display: table-cell;
-            vertical-align: middle;
-            img {
-              height: 100%;
-            }
-          }
-        }
-      }
-
-      .dr-text {
-        padding: 25px 15px;
-        @media #{$large} {
-          padding: 40px 15px 50px 15px;
-        }
-        span {
-          color: $primary-orange;
-        }
-
-        h3 {
-          color: $primary-blue;
-        }
-      }
-
-    }
-
-    .prevention {
-      background:antiquewhite;
-      .telling-signs {
-        margin-top: 30px;
-        @media #{$large} {
-          margin-top: -110px;
-        }
-      }
-    }
-
-    .staying-safe {
-      font-size: $font-size + 1;
-      text-align: center;
-
-      .col-sm-6 {
-        text-align: left;
-        height: 60px;
-        margin-top: 50px;
-      }
-
-      ul {
-        li {
-          background: url('../images/icons/tick-grey.png') no-repeat;
-          background-size: 50px;
-          height: 50px;
-          padding-left: 60px;
-          display: table-cell;
-          vertical-align: middle;
-        }
-      }
-    }
-
-    .media {
-      background:$section-background;
-
-      .news {
-        margin-bottom: 16px;
-        @media #{$medium} {
-          min-height: 350px;
-        }
-        @media #{$large} {
-          min-height: 320px;
-        }
-        a {
-          .image-wrapper {
-            overflow: hidden;
-            height: 180px;
-            max-width: 100%;
-            img {
-              object-fit: cover;
-              height: 180px;
-              width: 100%;
-            }
-          }
-
-          .agency {
-            font-size: $font-size;
-            color: $primary-blue;
-            margin-top: 8px;
-          }
-
-          h4 {
-            margin-top: 0px;
-            color: $font-color;
-          }
-
-          &:hover {
-            text-decoration: none;
-            h4 {
-              color: $primary-blue;
-            }
-          }
-        }
-      }
-    }
-
-    .documentaries {
-      background: $section-background-dark;
-      color: $secondary-color;
-      h2 {
-        text-align: center;
-        margin-bottom: 50px;
-        color: $primary-blue;
-      }
-
-      h3 {
-        margin-bottom: 25px;
-      }
-    }
-
-
-    footer {
-      background: $section-background-dark;
-      font-size: $font-size - 3;
-      color: $secondary-color;
-      padding: 20px 0px;
-
-      .container{
-        border-top: 4px solid $primary-orange;
-        padding: 30px 0px;
-
-        h5 {
-          font-weight: 700;
-        }
-
-        a {
-          color: $secondary-color;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-
-        ul {
-          .image {
-            display: inline-block;
-            padding-right: 8px;
-          }
-          &.contact {
-            li:first-child {
-              color:$primary-red;
-            }
-            li:nth-child(2) {
-              margin-left: 38px;
-              margin-top: -6px;
-            }
-            li:nth-child(3) {
-              a {
-                margin-left: 2px;
-              }
-            }
-          }
-        }
-      }
-    }
+  }
 }
-
