@@ -450,20 +450,6 @@ footer {
         display: inline-block;
         padding-right: 8px;
       }
-      &.contact {
-        li:first-child {
-          color:$primary-red;
-        }
-        li:nth-child(2) {
-          margin-left: 38px;
-          margin-top: -6px;
-        }
-        li:nth-child(3) {
-          a {
-            margin-left: 2px;
-          }
-        }
-      }
     }
   }
 }

@@ -33,7 +33,7 @@ export default class Navigation extends React.Component {
 						<div className="navbar-header">
 							<div className="navbar-contact">
 								<Image image="images/icons/icon-mail.svg" />
-								<a href="mailto:info.nhws@gmail.com">info.nhws@gmail.com</a>
+								<a href="mailto:support@nhws.org.uk">support@nhws.org.uk</a>
 							</div>
 							<button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span className="sr-only">Toggle navigation</span>
